@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+:root {
+	--main-font: "Anonymous Pro", monospace;
+	font-family: var(--main-font);
+	--color-powder: #FFC6B5;
+	--color-pink: #ED72AA;
+	--color-violet: #9063CD;
+	--color-darkblue: #021455;
+	--color-blue: #0F3296;
+	--color-skyblue: #54AEF2;
+	--color-aqua: #23748C;
+	--color-darkgreen: #005801;
+	--color-green: #1E9A1C;
+	--color-lime: #B1EB50;
+	--color-brown: #784B26;
+	--color-lightbrown: #AD7D5A;
+	--color-golden: #D3AE3B;
+	--color-yellow: #FDD406;
+	--color-orange: #FF7E3D;
+	--color-red: #E23726;
+	--color-darkred: #B00F04;
+	--color-carmine: #8A1538;
+	--color-black: #000000;
+	--color-darkgrey: #333333;
+	--color-grey: #CCCCCC;
+	--color-white: #FFFFFF;
+}
+
+:root {
+	scrollbar-color: var(--main-color) var(--bg-color);
+	scrollbar-width: thin;
+	transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+	transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar-track {
+	border: none;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--main-color);
+	border-radius: 7px;
+	transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--main-color);
+	transition: all 1s ease-in-out;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+	display: none;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+	display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+	display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+	display: none;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement:hover {
+	background-color: var(--main-color);
+	transition: all 1s ease-in-out;
+}
+::-webkit-scrollbar-button:vertical:start:decrement:hover {
+	background-color: var(--main-color);
+	transition: all 1s ease-in-out;
+}
+::-webkit-scrollbar-button:horizontal:end:increment:hover {
+	background-color: var(--main-color);
+	transition: all 1s ease-in-out;
+}
+::-webkit-scrollbar-button:vertical:end:increment:hover {
+	background-color: var(--main-color);
+	transition: all 1s ease-in-out;
+}
+
+
+
+html[data-theme="light"] {
+	--bg-color: hsl(40deg 15% 85%);
+	--main-color: hsl(40deg 20% 10%);
+	--grid-color: hsl(40deg 20% 40% / 0.05);
+	transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+}
+
+html[data-theme="dark"] {
+	--bg-color: hsl(220deg 20% 15%);
+	--main-color: hsl(210deg 20% 80%);
+	--grid-color: hsl(210deg 20% 50% / 0.05);
+	transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-webkit-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+}
+
+
+body {
+	background-color: hsl(40deg 15% 85%);
+	background-image: linear-gradient(hsl(40deg 20% 40% / 0.05) 0.1rem, transparent 0.1rem),
+		linear-gradient(to right, hsl(40deg 20% 40% / 0.05) 0.1rem, transparent 0.1rem);
+	background-size: 30px 30px;
+	margin: 30px;
+	transition: background-color 1s ease-in-out;
+	-moz-transition: background-color 1s ease-in-out;
+	-webkit-transition: background-color 1s ease-in-out;
+	-o-transition: background-color 1s ease-in-out;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: hsl(220deg 20% 15%);
+	background-image: linear-gradient(hsl(210deg 20% 50% / 0.05) 0.1rem, transparent 0.1rem),
+		linear-gradient(to right, hsl(210deg 20% 50% / 0.05) 0.1rem, transparent 0.1rem);
+	background-size: 30px 30px;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+html[data-theme="dark"] body::before {
+	opacity: 1;
+	transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+}
+
+@media (min-width: 1600px) {
+	:root {
+		font-size: 20px;
+	}
+	
+	.main_container {
+		position: absolute;
+		top: 0;
+		left: 200px;
+		right: 200px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1600px){
+	:root {
+		font-size: 16px;
+	}
+	
+	.main_container {
+		position: absolute;
+		top: 0;
+		left: 100px;
+		right: 100px;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 1024px){
+	:root {
+		font-size: 16px;
+	}
+	
+	.main_container {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		right: 20px;
+	}
+}
+
+@media (max-width: 640px){
+	:root {
+		font-size: 12px;
+	}
+	
+	.main_container {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		right: 20px;
+	}
+}

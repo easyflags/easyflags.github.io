@@ -1,0 +1,7 @@
+<svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H160V120H0V0Z" fill="#1E9A1C"/>
+<path d="M0 0L160 60L0 120" fill="#FDD406"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M160 60L0 0V4.17612L148.864 60L0 115.824V120L160 60Z" fill="white"/>
+<path d="M0 0L80 60L0 120" fill="#E23726"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M80 60L0 0V4.66476L73.7803 60L0 115.335V120L80 60Z" fill="black"/>
+</svg>
