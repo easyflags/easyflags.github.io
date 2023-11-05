@@ -118,7 +118,7 @@ function getCardSample(country, lang, size){
 	}
 	card += "<div class='flag_download'>";
 
-	card += "<a href='SVG/SVG-" + size + "/" + i + "-" + size + ".svg' target='_blank'>SVG</a>";
+	card += "<a href='flags/SVG/SVG-" + size + "/" + i + "-" + size + ".svg' target='_blank'>SVG</a>";
 	card += "<a title='" + makePNGTitle(lang, size, 360) + "' href='flags/PNG-360/PNG-" + size + "/" + i + "-" + size + ".png' target='_blank'>PNG-360</a>";
 	card += "<a title='" + makePNGTitle(lang, size, 1200) + "' href='flags/PNG-1200/PNG-" + size + "/" + i + "-" + size + ".png' target='_blank'>PNG-1200</a>";
 

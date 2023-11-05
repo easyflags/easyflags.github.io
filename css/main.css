@@ -139,6 +139,7 @@ body::before {
 	-moz-transition: opacity 1s ease-in-out;
 	-webkit-transition: opacity 1s ease-in-out;
 	-o-transition: opacity 1s ease-in-out;
+	margin: -200px;
 }
 
 html[data-theme="dark"] body::before {
