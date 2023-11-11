@@ -1,16 +1,51 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html data-theme="light" lang="ru">
 	<head>
+		<title>easyflags &mdash; флаги в различных размерах и форматах</title>
+
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link href="css/logo.css" rel="stylesheet" type="text/css">
 		<link href="css/regions.css" rel="stylesheet" type="text/css">
 		<link href="css/flag.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="index, nofollow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="content-language" content="ru">
+		<meta http-equiv="cleartype" content="on">
+		<meta name="language" content="Russian">
+		<meta name="author" content="Антон Леонов">
+		<meta name="reply-to" content="easyflags@proton.me">
+		<meta name="keywords" content="бесплатные векторные флаги, векторные флаги, флаги без лицензии, флаги стран, масштабируемые флаги, бесплатные флаги мира, флаги государств, растровые флаги, квадратные флаги, круглые флаги, флаги 1:1, флаги 1:2, флаги 3:4">
+		<meta name="description" content="Здесь вы можете бесплатно скачать флаги стран &mdash; растровые и векторные, в 4 различных пропорциях. Идеально подходят для дизайнеров и разработчиков!">
+
+		<link rel="canonical" href="https://easyflags.github.io">
+
+		<meta property="og:title" content="easyflags &mdash; флаги в различных размерах и форматах">
+		<meta property="og:site_name" content="easyflags">
+		<meta property="og:url" content="https://easyflags.github.io">
+		<meta property="og:description" content="Здесь вы можете бесплатно скачать флаги стран &mdash; растровые и векторные, в 4 различных пропорциях. Идеально подходят для дизайнеров и разработчиков!">
+		<meta property="og:locale" content="ru_RU">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="./images/logo.png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="1200">
+		<meta property="og:image:type" content="image/png">
 	</head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-W171SZVK5X"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-W171SZVK5X');
+	</script>
 	<body>
 		<div class="main_container">
 			<div class="langs radio_group">
-				<span><input type="radio" name="lang_button" id="ru" data-lang="ru" checked/><label for="ru"><img src="flags/PNG-360/PNG-0.75/RU-0.75.png"></label></span>
-				<span><input type="radio" name="lang_button" id="en" data-lang="en"/><label for="en"><img src="flags/PNG-360/PNG-0.75/GB-0.75.png"></label></span>
+				<a class="lang_current"><img src="flags/PNG-360/PNG-0.75/RU-0.75.png"></a>
+				<a href="en.html"><img src="flags/PNG-360/PNG-0.75/GB-0.75.png"></a>
 			</div>
 			<div class="ef_logo">
 				<svg width="95" height="180" class="ef_logo_triangle" xmlns="http://www.w3.org/2000/svg">
@@ -69,15 +104,6 @@
 			<div id="flags"></div>
 		</div>
 	</body>
-	<script>
-		var userLang = navigator.language || navigator.userLanguage || navigator.languages[0];
-
-		if (userLang === "ru" || userLang.startsWith("ru-")) {
-			window.location.href = "./ru.html";
-		} else {
-			window.location.href = "./en.html";
-		}
-	</script>
 	<script src="js/countries.js"></script>
 	<script src="js/colors.js"></script>
 	<script src="js/flag_colors.js"></script>

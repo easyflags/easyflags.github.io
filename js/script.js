@@ -73,7 +73,7 @@ function updateSizes() {
 }
 
 function updateLanguage() {
-	return document.querySelector(".langs input[type='radio']:checked").dataset.lang;
+	return document.documentElement.lang;
 }
 
 function updateHeader() {
@@ -165,15 +165,6 @@ for (i = 0;	i <	document.querySelectorAll(".flag_sizes input[type='radio'] + lab
 	let button = document.querySelectorAll(".flag_sizes input[type='radio']")[i];
 	button.addEventListener("change", (event) => {
 		makeCards();
-	});
-}
-
-// for resetting langs every time you toggle radios
-for (i = 0;	i <	document.querySelectorAll(".langs input[type='radio'] + label").length; i++) {
-	let button = document.querySelectorAll(".langs input[type='radio']")[i];
-	button.addEventListener("change", (event) => {
-		makeCards();
-		updateHeader();
 	});
 }
 

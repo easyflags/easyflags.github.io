@@ -3,6 +3,7 @@
 :root {
 	--main-font: "Anonymous Pro", monospace;
 	font-family: var(--main-font);
+
 	--color-powder: #FFC6B5;
 	--color-pink: #ED72AA;
 	--color-violet: #9063CD;
@@ -191,7 +192,7 @@ html[data-theme="dark"] body::before {
 
 @media (max-width: 640px){
 	:root {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	
 	.main_container {
