@@ -48,9 +48,8 @@
 	color: var(--bg-color);
 }
 
-
 .region_buttons {
-	margin-top: 2rem;
+	margin-top: 16px;
 }
 
 .region_buttons label{
@@ -84,44 +83,45 @@
 	}
 }
 
-@media (min-width: 1024px) and (max-width: 1600px){
+@media (min-width: 1024px) and (max-width: 1600px){	
   .langs{
 		right: 112px;
-		top: 32px;
+		top: 28px;
 	}
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px){	
   .langs{
 		right: 30px;
-		top: 34px;
+		top: 28px;
 	}
 }
 
 @media (max-width: 640px) {
 	.flag_sizes {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		display: flex;
 		justify-content: start;
 		justify-items: start;
-		margin-left: 100px;
-		width: 45vw;
+		gap: 5px;
+		margin-left: 70px;
+		width: 220px;
 	}
 	
 	.langs{
 		top: 28px;
 	}
 	
-	.langs img{
-		height: 1.5rem;
-	}
-	
-	.radio_group label{
-		padding: 6px 12px;
-		font-size: 1rem;
+	.langs img,
+	.radio_group a{
+		height: 1.25rem;
 	}
 	
 	.radio_group a{
-		height: 1.5rem;
+		padding: 6px 12px;
+	}
+	
+	.radio_group label{
+		padding: 4px 8px;
+		font-size: 1rem;
 	}
 }
