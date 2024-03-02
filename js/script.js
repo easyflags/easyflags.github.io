@@ -325,6 +325,6 @@ function makeCardImage(index){
 	image_link = "<img class='lazy' src='flags/PNG-30/PNG-" + proportion_value + "/" + index + "-" + proportion_value + "-30.png' data-src='flags/" + format_value + "/" + extension.toUpperCase() + "-" + proportion_value + "/" + index + "-" + proportion_value + size + "." + extension + "'>";
 
 	document.querySelector(".open_flag_img").innerHTML = image_link;
-	document.querySelector(".open_flag_download").setAttribute("href", "flags/" + format_value + "/" + extension + "-" + proportion_value + "/" + index + "-" + proportion_value + size + "." + extension);
+	document.querySelector(".open_flag_download").setAttribute("href", "flags/" + format_value + "/" + String.prototype.toUpperCase.call(extension) + "-" + proportion_value + "/" + index + "-" + proportion_value + size + "." + extension);
 	ll.update();
 }
