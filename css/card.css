@@ -344,6 +344,6 @@ a.open_flag_download:hover{
 	}
 	.open_flag_names_container{
 		grid-column-gap: 1.5rem;
-		grid-row-gap: 0.5rem;
+		grid-row-gap: 0;
 	}
 }
