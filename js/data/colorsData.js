@@ -15,7 +15,7 @@ const colors = {
 	lightbrown: {ru: "светло-коричневый", en: "light brown", hex: "#AD7D5A",},
 	golden: {ru: "золотистый", en: "golden", hex: "#D3AE3B",},
 	yellow: {ru: "жёлтый", en: "yellow", hex: "#FDD406",},
-	orange: {ru: "оранжевый", en: "orange", hex: "#FF5C26",},
+	orange: {ru: "оранжевый", en: "orange", hex: "#F4812F",},
 	red: {ru: "красный", en: "red", hex: "#D91C16",},
 	darkred: {ru: "тёмно-красный", en: "dark red", hex: "#A30904",},
 	carmine: {ru: "карминовый", en: "carmine", hex: "#8A1538",},
