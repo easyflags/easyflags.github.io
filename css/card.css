@@ -278,7 +278,7 @@ a.open_flag_download{
 }
 
 a.open_flag_download:hover{
-  background-color: hsl(var(--bg-color));
+	background-color: hsl(var(--bg-color));
 	color: hsl(var(--main-color));
 }
 
@@ -321,6 +321,35 @@ a.open_flag_download:hover{
 	-moz-border-radius-bottomright: 2rem;
 	border-top-right-radius: 2rem;
 	border-bottom-right-radius: 2rem;
+}
+
+.open_flag_color:before{
+	content: attr(title);
+	display: block;
+	position: absolute;
+	width: calc(100% - 32px);
+	padding: 0px 12px 0px 0;
+	margin: -6px 0 0 16px;
+	border: 2px hsl(var(--main-color)) solid;
+	border-radius: 16px;
+	white-space: normal;
+	background-color: hsl(var(--main-color));
+	color: hsl(var(--bg-color));
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	pointer-events: none;
+	text-align: right;
+	font-weight: bold;
+	left: 0px;
+	box-sizing: border-box;
+	font-size: 0.8rem;
+}
+
+.open_flag_color:hover:before{
+	opacity: 1;
 }
 
 @media (max-width: 640px) or ((min-width: 641px) and (max-width: 1280px) and (orientation: portrait)) {

@@ -18,7 +18,7 @@ var callback_error = function (element) {
 	logElementEvent("💀 ERROR", element);
 };
 
-var ll = new LazyLoad({
+var lazyload = new LazyLoad({
 	threshold: 0,
 	// Assign the callbacks defined above
 	callback_error: callback_error

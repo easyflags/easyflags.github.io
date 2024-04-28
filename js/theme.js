@@ -1,7 +1,4 @@
-function calculateSettingsAsString({
-	localStorageTheme,
-	systemSettingDark,
-}) {
+function calculateSettingsAsString({ localStorageTheme, systemSettingDark }) {
 	if (localStorageTheme !== null) {
 		return localStorageTheme;
 	}
@@ -15,9 +12,10 @@ function calculateSettingsAsString({
 
 function updateTheme({ theme }) {
 	document.querySelector("html").setAttribute("data-theme", theme);
+	window.localStorage.setItem("theme", theme);
 }
 
-const localStorageTheme = localStorage.getItem("theme");
+const localStorageTheme = window.localStorage.getItem("theme");
 const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 
 let currentThemeSetting = calculateSettingsAsString({
@@ -32,7 +30,6 @@ for (i = 0; i < document.querySelectorAll(".theme_toggle").length; i++) {
 	button.addEventListener("click", (event) => {
 		let newTheme = currentThemeSetting === "dark" ? "light" : "dark";
 
-		localStorage.setItem("theme", newTheme);
 		updateTheme({ theme: newTheme });
 		currentThemeSetting = newTheme;
 		createLogo();

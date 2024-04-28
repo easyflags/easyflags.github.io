@@ -36,10 +36,7 @@ const countries = {
 		en_short: "Andorra",
 		en_long: "Principality of Andorra",
 		orig: {
-			ca: {
-				ru: "каталанский",
-				en: "Catalan",
-				name: "Principat d'Andorra",},
+			ca: {name: "Principat d'Andorra",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -53,10 +50,7 @@ const countries = {
 		en_short: "UAE",
 		en_long: "United Arab Emirates",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "الإمارات العربية المتحدة",},
+			ar: {name: "الإمارات العربية المتحدة",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -70,8 +64,8 @@ const countries = {
 		en_short: "Afghanistan",
 		en_long: "Islamic Republic of Afghanistan",
 		orig: {
-			prs: { ru: "дари", en: "Dari", name: "امارت اسلامیہ افغانستان" },
-			ps: { ru: "пушту", en: "Pashto", name: "د افغانستان اسلامي امارت" },
+			prs: {name: "امارت اسلامیہ افغانستان" },
+			ps: {name: "د افغانستان اسلامي امارت" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -99,7 +93,7 @@ const countries = {
 		en_short: "Abkhazia",
 		en_long: "Republic of Abkhazia",
 		orig: {
-			ab: { ru: "абхазский", en: "Abkhazian", name: "Аԥсны Аҳәынҭқарра" },
+			ab: {name: "Аԥсны Аҳәынҭқарра" },
 		},
 		type: ["Asia",],
 		is_recognized: false,
@@ -129,7 +123,7 @@ const countries = {
 		en_short: "Azad Kashmir",
 		en_long: "Azad Jammu and Kashmir",
 		orig: {
-			ur: { ru: "урду", en: "Urdu", name: "آزاد جموں و کشمیر" },
+			ur: {name: "آزاد جموں و کشمیر" },
 		},
 		type: ["Asia",],
 		is_recognized: false,
@@ -143,10 +137,7 @@ const countries = {
 		en_short: "Albania",
 		en_long: "Republic of Albania",
 		orig: {
-			sq: {
-				ru: "албанский",
-				en: "Albanian",
-				name: "Republika e Shqipërisë",},
+			sq: {name: "Republika e Shqipërisë",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -160,10 +151,7 @@ const countries = {
 		en_short: "Armenia",
 		en_long: "Republic of Armenia",
 		orig: {
-			hy: {
-				ru: "армянский",
-				en: "Armenian",
-				name: "Հայաստանի Հանրապետություն",},
+			hy: {name: "Հայաստանի Հանրապետություն",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -177,10 +165,7 @@ const countries = {
 		en_short: "Angola",
 		en_long: "Republic of Angola",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República de Angola",},
+			pt: {name: "República de Angola",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -194,7 +179,7 @@ const countries = {
 		en_short: "Antarctica (Emblem of the Antarctic Treaty)",
 		en_long: "Territories south of 60°S",
 		orig: {},
-		type: ["Other", "Subdivision",],
+		type: ["Other",],
 		is_recognized: true,
 		resolution: "2:3",
 		resolution_ratio: 0.67,
@@ -206,7 +191,7 @@ const countries = {
 		en_short: "Antarctica (Graham Bartram)",
 		en_long: "Territories south of 60°S",
 		orig: {},
-		type: ["Other", "Subdivision",],
+		type: ["Other",],
 		is_recognized: true,
 		resolution: "2:3",
 		resolution_ratio: 0.67,
@@ -218,7 +203,7 @@ const countries = {
 		en_short: "Antarctica (True South)",
 		en_long: "Territories south of 60°S",
 		orig: {},
-		type: ["Other", "Subdivision",],
+		type: ["Other",],
 		is_recognized: true,
 		resolution: "3:5",
 		resolution_ratio: 0.6,
@@ -230,7 +215,7 @@ const countries = {
 		en_short: "Argentina",
 		en_long: "Argentine Republic",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "República Argentina" },
+			es: {name: "República Argentina" },
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -246,7 +231,7 @@ const countries = {
 		en_long: "",
 		orig: {
 			en: {name: "American Samoa" },
-			sm: { ru: "самоанский", en: "Samoan", name: "Amerika Sāmoa" },
+			sm: {name: "Amerika Sāmoa" },
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -261,7 +246,7 @@ const countries = {
 		en_short: "Austria",
 		en_long: "Republic of Austria",
 		orig: {
-			de: { ru: "немецкий", en: "German", name: "Republik Österreich" },
+			de: {name: "Republik Österreich" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -290,8 +275,8 @@ const countries = {
 		en_short: "Aruba",
 		en_long: "Country of Aruba",
 		orig: {
-			nl: { ru: "нидерландский", en: "Dutch", name: "Land Aruba" },
-			pap: { ru: "папьяменто", en: "Papiamento", name: "Pais Aruba" },
+			nl: {name: "Land Aruba" },
+			pap: {name: "Pais Aruba" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -307,8 +292,8 @@ const countries = {
 		en_short: "Åland",
 		en_long: "Åland Islands",
 		orig: {
-			fi: { ru: "финский", en: "Finnish", name: "Ahvenanmaan maakunta" },
-			sv: { ru: "шведский", en: "Swedish", name: "Landskapet Åland" },
+			fi: {name: "Ahvenanmaan maakunta" },
+			sv: {name: "Landskapet Åland" },
 		},
 		type: ["Europe", "Subdivision",],
 		is_recognized: true,
@@ -324,10 +309,7 @@ const countries = {
 		en_short: "Azerbaijan",
 		en_long: "Republic of Azerbaijan",
 		orig: {
-			az: {
-				ru: "азербайджанский",
-				en: "Azerbaijani",
-				name: "Azərbaycan Respublikası",},
+			az: {name: "Azərbaycan Respublikası",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -341,15 +323,9 @@ const countries = {
 		en_short: "Bosnia and Herzegovina",
 		en_long: "",
 		orig: {
-			hr: {
-				ru: "хорватский",
-				en: "Croatian",
-				name: "Bosna i Hercegovina",},
-			bs: {
-				ru: "боснийский",
-				en: "Bosnian",
-				name: "Bosna i Hercegovina",},
-			sr: { ru: "сербский", en: "Serbian", name: "Босна и Херцеговина" },
+			hr: {name: "Bosna i Hercegovina",},
+			bs: {name: "Bosna i Hercegovina",},
+			sr: {name: "Босна и Херцеговина" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -377,10 +353,7 @@ const countries = {
 		en_short: "Bangladesh",
 		en_long: "People's Republic of Bangladesh",
 		orig: {
-			bn: {
-				ru: "бенгальский",
-				en: "Bengali",
-				name: "গণপ্রজাতন্ত্রী বাংলাদেশ",},
+			bn: {name: "গণপ্রজাতন্ত্রী বাংলাদেশ",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -394,12 +367,9 @@ const countries = {
 		en_short: "Belgium",
 		en_long: "Kingdom of Belgium",
 		orig: {
-			nl: { ru: "нидерландский", en: "Dutch", name: "Koninkrijk België" },
-			de: { ru: "немецкий", en: "German", name: "Königreich Belgien" },
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Royaume de Belgique",},
+			nl: {name: "Koninkrijk België" },
+			de: {name: "Königreich Belgien" },
+			fr: {name: "Royaume de Belgique",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -413,7 +383,7 @@ const countries = {
 		en_short: "Burkina Faso",
 		en_long: "",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Burkina Faso" },
+			fr: {name: "Burkina Faso" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -427,10 +397,7 @@ const countries = {
 		en_short: "Bulgaria",
 		en_long: "Republic of Bulgaria",
 		orig: {
-			bg: {
-				ru: "болгарский",
-				en: "Bulgarian",
-				name: "Република България",},
+			bg: {name: "Република България",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -444,7 +411,7 @@ const countries = {
 		en_short: "Bahrain",
 		en_long: "Kingdom of Bahrain",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "مملكة البحرين" },
+			ar: {name: "مملكة البحرين" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -458,12 +425,9 @@ const countries = {
 		en_short: "Burundi",
 		en_long: "Republic of Burundi",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Burundi",},
+			fr: {name: "République du Burundi",},
 			en: {name: "Republic of Burundi",},
-			rn: { ru: "кирунди", en: "Kirundi", name: "Republika y’u Burundi" },
+			rn: {name: "Republika y’u Burundi" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -477,10 +441,7 @@ const countries = {
 		en_short: "Benin",
 		en_long: "Republic of Benin",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Bénin",},
+			fr: {name: "République du Bénin",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -495,10 +456,7 @@ const countries = {
 		en_short: "Saint Barthélemy",
 		en_long: "Territorial Collectivity of Saint-Barthélemy",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Collectivité territoriale de Saint-Barthélemy",},
+			fr: {name: "Collectivité territoriale de Saint-Barthélemy",},
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -529,14 +487,8 @@ const countries = {
 		en_short: "Brunei",
 		en_long: "Brunei Darussalam",
 		orig: {
-			"ms-j": {
-				ru: "малайский, джави",
-				en: "Malay (Jawi)",
-				name: "باندر سري بڬاون",},
-			"ms-l": {
-				ru: "малайский, латиница",
-				en: "Malay (Latin)",
-				name: "Negara Brunei Darussalam",},
+			"ms-j": {name: "باندر سري بڬاون",},
+			"ms-l": {name: "Negara Brunei Darussalam",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -550,13 +502,10 @@ const countries = {
 		en_short: "Bolivia",
 		en_long: "Plurinational State of Bolivia",
 		orig: {
-			qu: { ru: "кечуа", en: "Quechua", name: "Bulibya Mamallaqta" },
-			ay: { ru: "аймара", en: "Aymara", name: "Wuliwya Suyu" },
-			gn: { ru: "гуарани", en: "Guaraní", name: "Tetã Volívia" },
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "Estado Plurinacional de Bolivia",},
+			qu: {name: "Bulibya Mamallaqta" },
+			ay: {name: "Wuliwya Suyu" },
+			gn: {name: "Tetã Volívia" },
+			es: {name: "Estado Plurinacional de Bolivia",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -571,10 +520,7 @@ const countries = {
 		en_short: "Caribbean Netherlands",
 		en_long: "Bonaire, Sint Eustatius and Saba",
 		orig: {
-			nl: {
-				ru: "нидерландский",
-				en: "Dutch",
-				name: "Caribisch Nederland (Bonaire, Sint Eustatius en Saba)",},
+			nl: {name: "Caribisch Nederland (Bonaire, Sint Eustatius en Saba)",},
 		},
 		type: ["Caribbean", "Subdivision",],
 		is_recognized: true,
@@ -590,10 +536,7 @@ const countries = {
 		en_short: "Brazil",
 		en_long: "Federative Republic of Brazil",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República Federativa do Brasil",},
+			pt: {name: "República Federativa do Brasil",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -621,7 +564,7 @@ const countries = {
 		en_short: "Bhutan",
 		en_long: "Kingdom of Bhutan",
 		orig: {
-			dz: { ru: "дзонг-кэ", en: "Dzongkha", name: "འབྲུག་རྒྱལ་ཁབ་" },
+			dz: {name: "འབྲུག་རྒྱལ་ཁབ་" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -636,7 +579,7 @@ const countries = {
 		en_short: "Bouvet Island",
 		en_long: "",
 		orig: {
-			no: { ru: "норвежский", en: "Norwegian", name: "Bouvetøya" },
+			no: {name: "Bouvetøya" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -653,7 +596,7 @@ const countries = {
 		en_long: "Republic of Botswana",
 		orig: {
 			en: {name: "Republic of Botswana",},
-			tn: { ru: "тсвана", en: "Tswana", name: "Lefatshe la Botswana" },
+			tn: {name: "Lefatshe la Botswana" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -667,11 +610,8 @@ const countries = {
 		en_short: "Belarus",
 		en_long: "Republic of Belarus",
 		orig: {
-			ru: { ru: "русский", en: "Russian", name: "Республика Беларусь" },
-			be: {
-				ru: "белорусский",
-				en: "Belarusian",
-				name: "Рэспубліка Беларусь",},
+			ru: {name: "Республика Беларусь" },
+			be: {name: "Рэспубліка Беларусь",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -729,10 +669,7 @@ const countries = {
 		en_short: "DR Congo",
 		en_long: "Democratic Republic of the Congo",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République démocratique du Congo",},
+			fr: {name: "République démocratique du Congo",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -746,11 +683,8 @@ const countries = {
 		en_short: "Central African Republic",
 		en_long: "Central African Republic",
 		orig: {
-			sg: { ru: "санго", en: "Sango", name: "Ködörösêse tî Bêafrîka" },
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République Centrafricaine",},
+			sg: {name: "Ködörösêse tî Bêafrîka" },
+			fr: {name: "République Centrafricaine",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -764,12 +698,9 @@ const countries = {
 		en_short: "Congo",
 		en_long: "Republic of the Congo",
 		orig: {
-			kg: { ru: "конго", en: "Kongo", name: "Repubilika ya Kôngo" },
-			ln: { ru: "лингала", en: "Lingala", name: "Republíki ya Kongó" },
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Congo",},
+			kg: {name: "Repubilika ya Kôngo" },
+			ln: {name: "Republíki ya Kongó" },
+			fr: {name: "République du Congo",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -783,22 +714,10 @@ const countries = {
 		en_short: "Switzerland",
 		en_long: "Swiss Confederation",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Confédération Suisse",},
-			it: {
-				ru: "итальянский",
-				en: "Italian",
-				name: "Confederazione Svizzera",},
-			rm: {
-				ru: "ретороманский",
-				en: "Romansh",
-				name: "Confederaziun Svizra",},
-			de: {
-				ru: "немецкий",
-				en: "German",
-				name: "Schweizerische Eidgenossenschaft",},
+			fr: {name: "Confédération Suisse",},
+			it: {name: "Confederazione Svizzera",},
+			rm: {name: "Confederaziun Svizra",},
+			de: {name: "Schweizerische Eidgenossenschaft",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -812,7 +731,7 @@ const countries = {
 		en_short: "Côte d'Ivoire",
 		en_long: "Republic of Côte d'Ivoire",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Côte d'Ivoire" },
+			fr: {name: "Côte d'Ivoire" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -826,10 +745,7 @@ const countries = {
 		en_short: "Cook Islands",
 		en_long: "",
 		orig: {
-			rar: {
-				ru: "маори островов Кука",
-				en: "Cook Islands Māori",
-				name: "Kūki 'Āirani",},
+			rar: {name: "Kūki 'Āirani",},
 			en: {name: "Cook Islands" },
 		},
 		type: ["Oceania",],
@@ -844,7 +760,7 @@ const countries = {
 		en_short: "Chile",
 		en_long: "Republic of Chile",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "República de Chile" },
+			es: {name: "República de Chile" },
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -859,10 +775,7 @@ const countries = {
 		en_long: "Republic of Cameroon",
 		orig: {
 			en: {name: "Republic of Cameroon",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Cameroun",},
+			fr: {name: "République du Cameroun",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -876,7 +789,7 @@ const countries = {
 		en_short: "China",
 		en_long: "People's Republic of China",
 		orig: {
-			zh: { ru: "китайский", en: "Chinese", name: "中华人民共和国" },
+			zh: {name: "中华人民共和国" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -890,10 +803,7 @@ const countries = {
 		en_short: "Colombia",
 		en_long: "Republic of Colombia",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Colombia",},
+			es: {name: "República de Colombia",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -923,10 +833,7 @@ const countries = {
 		en_short: "Costa Rica",
 		en_long: "Republic of Costa Rica",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Costa Rica",},
+			es: {name: "República de Costa Rica",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -940,7 +847,7 @@ const countries = {
 		en_short: "Cuba",
 		en_long: "Republic of Cuba",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "República de Cuba" },
+			es: {name: "República de Cuba" },
 		},
 		type: ["Caribbean",],
 		is_recognized: true,
@@ -954,10 +861,7 @@ const countries = {
 		en_short: "Cabo Verde",
 		en_long: "Republic of Cabo Verde",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República de Cabo Verde",},
+			pt: {name: "República de Cabo Verde",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -972,9 +876,9 @@ const countries = {
 		en_short: "Curaçao",
 		en_long: "Country of Curaçao",
 		orig: {
-			nl: { ru: "нидерландский", en: "Dutch", name: "Land Curaçao" },
+			nl: {name: "Land Curaçao" },
 			en: {name: "Country of Curaçao" },
-			pap: { ru: "папьяменто", en: "Papiamento", name: "Pais Kòrsou" },
+			pap: {name: "Pais Kòrsou" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -1005,8 +909,8 @@ const countries = {
 		en_short: "Cyprus",
 		en_long: "Republic of Cyprus",
 		orig: {
-			tr: { ru: "турецкий", en: "Turkish", name: "Kıbrıs Cumhuriyeti" },
-			el: { ru: "греческий", en: "Greek", name: "Κυπριακή Δημοκρατία" },
+			tr: {name: "Kıbrıs Cumhuriyeti" },
+			el: {name: "Κυπριακή Δημοκρατία" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1020,7 +924,7 @@ const countries = {
 		en_short: "Czechia",
 		en_long: "Czech Republic",
 		orig: {
-			cs: { ru: "чешский", en: "Czech", name: "Česká republika" },
+			cs: {name: "Česká republika" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1034,10 +938,7 @@ const countries = {
 		en_short: "Germany",
 		en_long: "Federal Republic of Germany",
 		orig: {
-			de: {
-				ru: "немецкий",
-				en: "German",
-				name: "Bundesrepublik Deutschland",},
+			de: {name: "Bundesrepublik Deutschland",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1051,16 +952,10 @@ const countries = {
 		en_short: "Djibouti",
 		en_long: "Republic of Djibouti",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Djibouti",},
-			so: {
-				ru: "сомалийский",
-				en: "Somali",
-				name: "Jamhuuriyadda Jabuuti",},
-			aa: { ru: "афарский", en: "Afar", name: "Gabuutih Ummuuno" },
-			ar: { ru: "арабский", en: "Arabic", name: "جمهورية جيبوتي" },
+			fr: {name: "République de Djibouti",},
+			so: {name: "Jamhuuriyadda Jabuuti",},
+			aa: {name: "Gabuutih Ummuuno" },
+			ar: {name: "جمهورية جيبوتي" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1074,7 +969,7 @@ const countries = {
 		en_short: "Denmark",
 		en_long: "Kingdom of Denmark",
 		orig: {
-			da: { ru: "датский", en: "Danish", name: "Kongeriget Danmark" },
+			da: {name: "Kongeriget Danmark" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1102,18 +997,9 @@ const countries = {
 		en_short: "Transnistria",
 		en_long: "Pridnestrovian Moldavian Republic",
 		orig: {
-			uk: {
-				ru: "украинский",
-				en: "Ukrainian",
-				name: "Придністровська Молдавська Республіка",},
-			md: {
-				ru: "молдавский, кириллица",
-				en: "Moldavian",
-				name: "Република Молдовеняскэ Нистрянэ",},
-			ru: {
-				ru: "русский",
-				en: "Russian",
-				name: "Приднестровская Молдавская Республика",},
+			uk: {name: "Придністровська Молдавська Республіка",},
+			md: {name: "Република Молдовеняскэ Нистрянэ",},
+			ru: {name: "Приднестровская Молдавская Республика",},
 		},
 		type: ["Europe",],
 		is_recognized: false,
@@ -1127,10 +1013,7 @@ const countries = {
 		en_short: "Dominican Republic",
 		en_long: "",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República Dominicana",},
+			es: {name: "República Dominicana",},
 		},
 		type: ["Caribbean",],
 		is_recognized: true,
@@ -1144,14 +1027,8 @@ const countries = {
 		en_short: "Algeria",
 		en_long: "People's Democratic Republic of Algeria",
 		orig: {
-			kab: {
-				ru: "берберский",
-				en: "Berber",
-				name: "ⵟⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ",},
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "اَلْجُمهُورِيَّة اَلْجَزَائِرِيَّة اَلدِّيمُقرَاطِيَّة اَلشَّعبِيَّة",},
+			kab: {name: "ⵟⴰⴳⴷⵓⴷⴰ ⵜⴰⵎⴻⴳⴷⴰⵢⵜ ⵜⴰⵖⴻⵔⴼⴰⵏⵜ ⵜⴰⵣⵣⴰⵢⵔⵉⵜ",},
+			ar: {name: "اَلْجُمهُورِيَّة اَلْجَزَائِرِيَّة اَلدِّيمُقرَاطِيَّة اَلشَّعبِيَّة",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1165,10 +1042,7 @@ const countries = {
 		en_short: "Ecuador",
 		en_long: "Republic of Ecuador",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República del Ecuador",},
+			es: {name: "República del Ecuador",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -1182,7 +1056,7 @@ const countries = {
 		en_short: "Estonia",
 		en_long: "Republic of Estonia",
 		orig: {
-			et: { ru: "эстонский", en: "Estonian", name: "Eesti Vabariik" },
+			et: {name: "Eesti Vabariik" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1196,7 +1070,7 @@ const countries = {
 		en_short: "Egypt",
 		en_long: "Arab Republic of Egypt",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "جمهورية مصر العربية" },
+			ar: {name: "جمهورية مصر العربية" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -1210,10 +1084,7 @@ const countries = {
 		en_short: "Western Sahara",
 		en_long: "Sahrawi Arab Democratic Republic",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ الصحراوية الديمقراطية",},
+			ar: {name: "ٱلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ الصحراوية الديمقراطية",},
 		},
 		type: ["Africa",],
 		is_recognized: false,
@@ -1227,8 +1098,8 @@ const countries = {
 		en_short: "Eritrea",
 		en_long: "State of Eritrea",
 		orig: {
-			ti: { ru: "тигринья", en: "Tigrinya", name: "ሃግሬ ኤርትራ" },
-			ar: { ru: "арабский", en: "Arabic", name: "دولة إرتريا" },
+			ti: {name: "ሃግሬ ኤርትራ" },
+			ar: {name: "دولة إرتريا" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1242,7 +1113,7 @@ const countries = {
 		en_short: "Spain",
 		en_long: "Kingdom of Spain",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "Reino de España" },
+			es: {name: "Reino de España" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1256,10 +1127,7 @@ const countries = {
 		en_short: "Ethiopia",
 		en_long: "Federal Democratic Republic of Ethiopia",
 		orig: {
-			am: {
-				ru: "амхарский",
-				en: "Amharic",
-				name: "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",},
+			am: {name: "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1273,7 +1141,7 @@ const countries = {
 		en_short: "Flag of Europe",
 		en_long: "Flag of the Council of Europe and the European Union",
 		orig: {},
-		type: ["Europe", "Subdivision",],
+		type: ["Europe",],
 		is_recognized: true,
 		resolution: "2:3",
 		resolution_ratio: 0.67,
@@ -1285,8 +1153,8 @@ const countries = {
 		en_short: "Finland",
 		en_long: "Republic of Finland",
 		orig: {
-			sv: { ru: "шведский", en: "Swedish", name: "Republiken Finland" },
-			fi: { ru: "финский", en: "Finnish", name: "Suomen tasavalta" },
+			sv: {name: "Republiken Finland" },
+			fi: {name: "Suomen tasavalta" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1300,14 +1168,8 @@ const countries = {
 		en_short: "Fiji",
 		en_long: "Republic of Fiji",
 		orig: {
-			fj: {
-				ru: "фиджийский",
-				en: "Fijian",
-				name: "Matanitu Tugalala o Viti",},
-			hif: {
-				ru: "фиджийский хинди",
-				en: "Fiji Hindi",
-				name: "फ़िजी गणराज्य",},
+			fj: {name: "Matanitu Tugalala o Viti",},
+			hif: {name: "फ़िजी गणराज्य",},
 			en: {name: "Republic of Fiji" },
 		},
 		type: ["Oceania",],
@@ -1353,8 +1215,8 @@ const countries = {
 		en_short: "Faroe Islands",
 		en_long: "",
 		orig: {
-			da: { ru: "датский", en: "Danish", name: "Færøerne" },
-			fo: { ru: "фарерский", en: "Faroese", name: "Føroyar" },
+			da: {name: "Færøerne" },
+			fo: {name: "Føroyar" },
 		},
 		type: ["Europe", "Subdivision",],
 		is_recognized: true,
@@ -1369,10 +1231,7 @@ const countries = {
 		en_short: "France",
 		en_long: "French Republic",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République française",},
+			fr: {name: "République française",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1386,10 +1245,7 @@ const countries = {
 		en_short: "Gabon",
 		en_long: "Gabonese Republic",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République Gabonaise",},
+			fr: {name: "République Gabonaise",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1431,7 +1287,7 @@ const countries = {
 		en_short: "Georgia",
 		en_long: "",
 		orig: {
-			ka: { ru: "грузинский", en: "Georgian", name: "საქართველო" },
+			ka: {name: "საქართველო" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1446,7 +1302,7 @@ const countries = {
 		en_short: "French Guiana",
 		en_long: "",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Guyane" },
+			fr: {name: "Guyane" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -1463,14 +1319,8 @@ const countries = {
 		en_long: "",
 		orig: {
 			en: {name: "Bailiwick of Guernsey",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Bailliage de Guernesey",},
-			nrf: {
-				ru: "гернсийский диалект нормандского",
-				en: "Guernésiais",
-				name: "Bailliage dé Guernési",},
+			fr: {name: "Bailliage de Guernesey",},
+			nrf: {name: "Bailliage dé Guernési",},
 		},
 		type: ["Europe", "Subdivision",],
 		is_recognized: true,
@@ -1516,10 +1366,7 @@ const countries = {
 		en_short: "Greenland",
 		en_long: "",
 		orig: {
-			kl: {
-				ru: "гренландский",
-				en: "Greenlandic",
-				name: "Kalaallit Nunaat",},
+			kl: {name: "Kalaallit Nunaat",},
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -1548,10 +1395,7 @@ const countries = {
 		en_short: "Guinea",
 		en_long: "Republic of Guinea",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Guinée",},
+			fr: {name: "République de Guinée",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1566,7 +1410,7 @@ const countries = {
 		en_short: "Guadeloupe (Unofficial flag)",
 		en_long: "",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Guadeloupe" },
+			fr: {name: "Guadeloupe" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -1581,18 +1425,9 @@ const countries = {
 		en_short: "Equatorial Guinea",
 		en_long: "Republic of Equatorial Guinea",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Guinée Équatoriale",},
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República da Guiné Equatorial",},
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Guinea Ecuatorial",},
+			fr: {name: "République de Guinée Équatoriale",},
+			pt: {name: "República da Guiné Equatorial",},
+			es: {name: "República de Guinea Ecuatorial",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1606,7 +1441,7 @@ const countries = {
 		en_short: "Greece",
 		en_long: "Hellenic Republic",
 		orig: {
-			el: { ru: "греческий", en: "Greek", name: "Ελληνική Δημοκρατία" },
+			el: {name: "Ελληνική Δημοκρατία" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1636,10 +1471,7 @@ const countries = {
 		en_short: "Guatemala",
 		en_long: "Republic of Guatemala",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Guatemala",},
+			es: {name: "República de Guatemala",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -1654,7 +1486,7 @@ const countries = {
 		en_short: "Guam",
 		en_long: "Territory of Guam",
 		orig: {
-			ch: { ru: "чаморро", en: "Chamorro", name: "Guåhån" },
+			ch: {name: "Guåhån" },
 			en: {name: "Territory of Guam" },
 		},
 		type: ["Oceania", "Subdivision",],
@@ -1670,10 +1502,7 @@ const countries = {
 		en_short: "Guinea-Bissau",
 		en_long: "Republic of Guinea-Bissau",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República da Guiné-Bissau",},
+			pt: {name: "República da Guiné-Bissau",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -1702,10 +1531,7 @@ const countries = {
 		en_short: "Hong Kong",
 		en_long: "Hong Kong Special Administrative Region",
 		orig: {
-			"zh-t": {
-				ru: "китайский традиционный",
-				en: "Chinese Traditional",
-				name: "香港特別行政區",},
+			"zh-t": {name: "香港特別行政區",},
 			en: {name: "Hong Kong Special Administrative Region",},
 		},
 		type: ["Asia", "Subdivision",],
@@ -1738,10 +1564,7 @@ const countries = {
 		en_short: "Honduras",
 		en_long: "Republic of Honduras",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Honduras",},
+			es: {name: "República de Honduras",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -1755,10 +1578,7 @@ const countries = {
 		en_short: "Croatia",
 		en_long: "Republic of Croatia",
 		orig: {
-			hr: {
-				ru: "хорватский",
-				en: "Croatian",
-				name: "Republika Hrvatska",},
+			hr: {name: "Republika Hrvatska",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1772,11 +1592,8 @@ const countries = {
 		en_short: "Haiti",
 		en_long: "Republic of Haiti",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "République d’Haïti" },
-			ht: {
-				ru: "гаитянский креольский",
-				en: "Haitian Creole",
-				name: "Repiblik Ayiti",},
+			fr: {name: "République d’Haïti" },
+			ht: {name: "Repiblik Ayiti",},
 		},
 		type: ["Caribbean",],
 		is_recognized: true,
@@ -1790,7 +1607,7 @@ const countries = {
 		en_short: "Hungary",
 		en_long: "",
 		orig: {
-			hu: { ru: "венгерский", en: "Hungarian", name: "Magyarország" },
+			hu: {name: "Magyarország" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1805,7 +1622,7 @@ const countries = {
 		en_short: "Canary Islands",
 		en_long: "",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "Islas Canarias" },
+			es: {name: "Islas Canarias" },
 		},
 		type: ["Africa", "Subdivision",],
 		is_recognized: true,
@@ -1820,10 +1637,7 @@ const countries = {
 		en_short: "Indonesia",
 		en_long: "Republic of Indonesia",
 		orig: {
-			id: {
-				ru: "индонезийский",
-				en: "Indonesian",
-				name: "Republik Indonesia",},
+			id: {name: "Republik Indonesia",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -1838,7 +1652,7 @@ const countries = {
 		en_long: "Republic of Ireland",
 		orig: {
 			en: {name: "Republic of Ireland",},
-			ga: { ru: "ирландский", en: "Irish", name: "Poblacht na hÉireann" },
+			ga: {name: "Poblacht na hÉireann" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -1852,8 +1666,8 @@ const countries = {
 		en_short: "Israel",
 		en_long: "State of Israel",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "دَوْلَة إِسْرَائِيل" },
-			he: { ru: "иврит", en: "Hebrew", name: "מְדִינַת יִשְׂרָאֵל" },
+			ar: {name: "دَوْلَة إِسْرَائِيل" },
+			he: {name: "מְדִינַת יִשְׂרָאֵל" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -1869,7 +1683,7 @@ const countries = {
 		en_long: "",
 		orig: {
 			en: {name: "Isle of Man" },
-			gv: { ru: "мэнский", en: "Manx", name: "Ellan Vannin" },
+			gv: {name: "Ellan Vannin" },
 		},
 		type: ["Europe", "Subdivision"],
 		parent: "GB",
@@ -1884,44 +1698,29 @@ const countries = {
 		en_long: "Republic of India",
 		orig: {
 			en: {name: "Republic of India" },
-			hi: { ru: "хинди", en: "Hindi", name: "भारत गणराज्य" },
-			as: { ru: "ассамский", en: "Assamese", name: "ভাৰত গণৰাজ্য" },
-			bn: {
-				ru: "бенгальский",
-				en: "Bengali",
-				name: "ভারতীয় প্রজাতন্ত্র",},
-			brx: { ru: "бодо", en: "Bodo", name: "भारत गणराज्य" },
-			doi: { ru: "догри", en: "Dogri", name: "भारत गणराज्य" },
-			gu: { ru: "гуджарати", en: "Gujarati", name: "ભારતીય ગણતંત્ર" },
-			kn: { ru: "каннада", en: "Kannada", name: "ಭಾರತ ಗಣರಾಜ್ಯ" },
-			ks: {
-				ru: "кашмири",
-				en: "Kashmiri",
-				name: "جۆمہوٗرِیَہ ہِندوستان",},
-			kok: { ru: "конкани", en: "Konkani", name: "भारत गणराज्य" },
-			mai: { ru: "майтхили", en: "Maithili", name: "भारत गणराज्य" },
-			ml: { ru: "малаялам", en: "Malayalam", name: "ഭാരതമഹാരാജ്യം" },
-			mr: { ru: "маратхи", en: "Marathi", name: "भारतीय प्रजासत्ताक" },
-			mni: {
-				ru: "манипури",
-				en: "Meitei (Manipuri)",
-				name: "ভারত গণরাজ্য",},
-			ne: { ru: "непальский", en: "Nepali", name: "गणतन्त्र भारत" },
-			or: { ru: "ория", en: "Odia", name: "ଭାରତ ଗଣରାଜ୍ୟ" },
-			pa: { ru: "пенджабский", en: "Punjabi", name: "ਭਾਰਤ ਗਣਰਾਜ" },
-			sa: { ru: "санскрит", en: "Sanskrit", name: "भारतमहाराज्यम्" },
-			sat: { ru: "сантали", en: "Santali", name: "ᱥᱤᱧᱚᱛ ᱨᱮᱱᱟᱜ ᱟᱹᱯᱱᱟᱹᱛ" },
-			"sd-a": {
-				ru: "синдхи, арабский",
-				en: "Sindhi (Arabic)",
-				name: "جمهوريه ڀارت",},
-			"sd-d": {
-				ru: "синдхи, деванагари",
-				en: "Sindhi (Devanagari)",
-				name: "भारत गणतन्त्र",},
-			ta: { ru: "тамильский", en: "Tamil", name: "இந்தியக் குடியரசு" },
-			te: { ru: "телугу", en: "Telugu", name: "భారత గణతంత్ర రాజ్యము" },
-			ur: { ru: "урду", en: "Urdu", name: "جمہوریہ ہندوستان" },
+			hi: {name: "भारत गणराज्य" },
+			as: {name: "ভাৰত গণৰাজ্য" },
+			bn: {name: "ভারতীয় প্রজাতন্ত্র",},
+			brx: {name: "भारत गणराज्य" },
+			doi: {name: "भारत गणराज्य" },
+			gu: {name: "ભારતીય ગણતંત્ર" },
+			kn: {name: "ಭಾರತ ಗಣರಾಜ್ಯ" },
+			ks: {name: "جۆمہوٗرِیَہ ہِندوستان",},
+			kok: {name: "भारत गणराज्य" },
+			mai: {name: "भारत गणराज्य" },
+			ml: {name: "ഭാരതമഹാരാജ്യം" },
+			mr: {name: "भारतीय प्रजासत्ताक" },
+			mni: {name: "ভারত গণরাজ্য",},
+			ne: {name: "गणतन्त्र भारत" },
+			or: {name: "ଭାରତ ଗଣରାଜ୍ୟ" },
+			pa: {name: "ਭਾਰਤ ਗਣਰਾਜ" },
+			sa: {name: "भारतमहाराज्यम्" },
+			sat: {name: "ᱥᱤᱧᱚᱛ ᱨᱮᱱᱟᱜ ᱟᱹᱯᱱᱟᱹᱛ" },
+			"sd-a": {name: "جمهوريه ڀارت",},
+			"sd-d": {name: "भारत गणतन्त्र",},
+			ta: {name: "இந்தியக் குடியரசு" },
+			te: {name: "భారత గణతంత్ర రాజ్యము" },
+			ur: {name: "جمہوریہ ہندوستان" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -1951,11 +1750,8 @@ const countries = {
 		en_short: "Iraq",
 		en_long: "Republic of Iraq",
 		orig: {
-			ku: { ru: "курдский", en: "Kurdish", name: "کۆماری عێراق" },
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "جُمْهُورِيَّة ٱلْعِرَاق",},
+			ku: {name: "کۆماری عێراق" },
+			ar: {name: "جُمْهُورِيَّة ٱلْعِرَاق",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -1969,10 +1765,7 @@ const countries = {
 		en_short: "Iran",
 		en_long: "Islamic Republic of Iran",
 		orig: {
-			pes: {
-				ru: "персидский",
-				en: "Persian",
-				name: "جمهوری اسلامی ایران",},
+			pes: {name: "جمهوری اسلامی ایران",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -1986,7 +1779,7 @@ const countries = {
 		en_short: "Iceland",
 		en_long: "",
 		orig: {
-			is: { ru: "исландский", en: "Icelandic", name: "Ísland" },
+			is: {name: "Ísland" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2000,10 +1793,7 @@ const countries = {
 		en_short: "Italy",
 		en_long: "Italian Republic",
 		orig: {
-			it: {
-				ru: "итальянский",
-				en: "Italian",
-				name: "Repubblica Italiana",},
+			it: {name: "Repubblica Italiana",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2019,14 +1809,8 @@ const countries = {
 		en_long: "",
 		orig: {
 			en: {name: "Bailiwick of Jersey",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Bailliage de Jersey",},
-			nrf: {
-				ru: "джерсийский диалект нормандского",
-				en: "Jèrriais",
-				name: "Bailliage dé Jèrri",},
+			fr: {name: "Bailliage de Jersey",},
+			nrf: {name: "Bailliage dé Jèrri",},
 		},
 		type: ["Europe", "Subdivision",],
 		is_recognized: true,
@@ -2055,10 +1839,7 @@ const countries = {
 		en_short: "Jordan",
 		en_long: "Hashemite Kingdom of Jordan",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْمَمْلَكَة الأردنية الهاشميه",},
+			ar: {name: "ٱلْمَمْلَكَة الأردنية الهاشميه",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -2072,7 +1853,7 @@ const countries = {
 		en_short: "Japan",
 		en_long: "",
 		orig: {
-			ja: { ru: "японский", en: "Japanese", name: "日本国" },
+			ja: {name: "日本国" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2086,10 +1867,7 @@ const countries = {
 		en_short: "Somaliland",
 		en_long: "Republic of Somaliland",
 		orig: {
-			so: {
-				ru: "сомалийский",
-				en: "Somali",
-				name: "Jamhuuriyadda Soomaaliland",},
+			so: {name: "Jamhuuriyadda Soomaaliland",},
 		},
 		type: ["Africa",],
 		is_recognized: false,
@@ -2103,7 +1881,7 @@ const countries = {
 		en_short: "Kenya",
 		en_long: "Republic of Kenya",
 		orig: {
-			sw: { ru: "суахили", en: "Swahili", name: "Jamhuri ya Kenya" },
+			sw: {name: "Jamhuri ya Kenya" },
 			en: {name: "Republic of Kenya" },
 		},
 		type: ["Africa",],
@@ -2118,8 +1896,8 @@ const countries = {
 		en_short: "Kyrgyzstan",
 		en_long: "Kyrgyz Republic",
 		orig: {
-			ru: { ru: "русский", en: "Russian", name: "Кыргызская Республика" },
-			ky: { ru: "кыргызский", en: "Kyrgyz", name: "Кыргыз Республикасы" },
+			ru: {name: "Кыргызская Республика" },
+			ky: {name: "Кыргыз Республикасы" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2133,7 +1911,7 @@ const countries = {
 		en_short: "Cambodia",
 		en_long: "Kingdom of Cambodia",
 		orig: {
-			km: { ru: "кхмерский", en: "Khmer", name: "ព្រះរាជាណាចក្រកម្ពុជា" },
+			km: {name: "ព្រះរាជាណាចក្រកម្ពុជា" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2148,10 +1926,7 @@ const countries = {
 		en_long: "Republic of Kiribati",
 		orig: {
 			en: {name: "Republic of Kiribati",},
-			gil: {
-				ru: "гилбертский",
-				en: "Gilbertese",
-				name: "Ribaberiki Kiribati",},
+			gil: {name: "Ribaberiki Kiribati",},
 		},
 		type: ["Oceania",],
 		is_recognized: true,
@@ -2165,10 +1940,7 @@ const countries = {
 		en_short: "Northern Cyprus",
 		en_long: "Turkish Republic of Northern Cyprus",
 		orig: {
-			tr: {
-				ru: "турецкий",
-				en: "Turkish",
-				name: "Kuzey Kıbrıs Türk Cumhuriyeti",},
+			tr: {name: "Kuzey Kıbrıs Türk Cumhuriyeti",},
 		},
 		type: ["Europe",],
 		is_recognized: false,
@@ -2182,12 +1954,9 @@ const countries = {
 		en_short: "Comoros",
 		en_long: "Union of the Comoros",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْإِمَارَاتُ ٱلقَمَريّ",},
-			fr: { ru: "французский", en: "French", name: "Union des Comores" },
-			zdj: { ru: "коморский", en: "Shikomor", name: "Udzima wa Komori" },
+			ar: {name: "ٱلْإِمَارَاتُ ٱلقَمَريّ",},
+			fr: {name: "Union des Comores" },
+			zdj: {name: "Udzima wa Komori" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2215,14 +1984,8 @@ const countries = {
 		en_short: "North Korea",
 		en_long: "Democratic People's Republic of Korea",
 		orig: {
-			"ko-hc": {
-				ru: "корейский, ханча",
-				en: "Korean (Hancha)",
-				name: "朝鮮民主主義人民共和國",},
-			"ko-hg": {
-				ru: "корейский, хангыль",
-				en: "Korean (Hangul)",
-				name: "조선민주주의인민공화국",},
+			"ko-hc": {name: "朝鮮民主主義人民共和國",},
+			"ko-hg": {name: "조선민주주의인민공화국",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2236,14 +1999,8 @@ const countries = {
 		en_short: "South Korea",
 		en_long: "Republic of Korea",
 		orig: {
-			"ko-hc": {
-				ru: "корейский, ханча",
-				en: "Korean (Hancha)",
-				name: "大韓民國",},
-			"ko-hg": {
-				ru: "корейский, хангыль",
-				en: "Korean (Hangul)",
-				name: "대한민국",},
+			"ko-hc": {name: "大韓民國",},
+			"ko-hg": {name: "대한민국",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2257,7 +2014,7 @@ const countries = {
 		en_short: "Kuwait",
 		en_long: "State of Kuwait",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "دَوْلَةُ الكويت" },
+			ar: {name: "دَوْلَةُ الكويت" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -2287,11 +2044,8 @@ const countries = {
 		en_short: "Kazakhstan",
 		en_long: "Republic of Kazakhstan",
 		orig: {
-			ru: { ru: "русский", en: "Russian", name: "Республика Казахстан" },
-			kk: {
-				ru: "казахский",
-				en: "Kazakh",
-				name: "Қазақстан Республикасы",},
+			ru: {name: "Республика Казахстан" },
+			kk: {name: "Қазақстан Республикасы",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2305,10 +2059,7 @@ const countries = {
 		en_short: "Laos",
 		en_long: "Lao People's Democratic Republic",
 		orig: {
-			lo: {
-				ru: "лаосский",
-				en: "Lao",
-				name: "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",},
+			lo: {name: "ສາທາລະນະລັດ ປະຊາທິປະໄຕ ປະຊາຊົນລາວ",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2322,14 +2073,8 @@ const countries = {
 		en_short: "Lebanon",
 		en_long: "Lebanese Republic",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République libanaise",},
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "اَلْجُمْهُورِيَّة اَللُّبْنَانِيَّة",},
+			fr: {name: "République libanaise",},
+			ar: {name: "اَلْجُمْهُورِيَّة اَللُّبْنَانِيَّة",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -2357,10 +2102,7 @@ const countries = {
 		en_short: "Liechtenstein",
 		en_long: "Principality of Liechtenstein",
 		orig: {
-			de: {
-				ru: "немецкий",
-				en: "German",
-				name: "Fürstentum Liechtenstein",},
+			de: {name: "Fürstentum Liechtenstein",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2374,14 +2116,8 @@ const countries = {
 		en_short: "Sri Lanka",
 		en_long: "Democratic Socialist Republic of Sri Lanka",
 		orig: {
-			ta: {
-				ru: "тамильский",
-				en: "Tamil",
-				name: "இலங்கை ஜனநாயக சமத்துவ குடியரசு",},
-			si: {
-				ru: "сингальский",
-				en: "Sinhala",
-				name: "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",},
+			ta: {name: "இலங்கை ஜனநாயக சமத்துவ குடியரசு",},
+			si: {name: "ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2409,7 +2145,7 @@ const countries = {
 		en_short: "Lesotho",
 		en_long: "Kingdom of Lesotho",
 		orig: {
-			st: { ru: "сесото", en: "Sesotho", name: "Muso oa Lesotho" },
+			st: {name: "Muso oa Lesotho" },
 			en: {name: "Kingdom of Lesotho" },
 		},
 		type: ["Africa",],
@@ -2424,10 +2160,7 @@ const countries = {
 		en_short: "Lithuania",
 		en_long: "Republic of Lithuania",
 		orig: {
-			lt: {
-				ru: "литовский",
-				en: "Lithuanian",
-				name: "Lietuvos Respublika",},
+			lt: {name: "Lietuvos Respublika",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2441,18 +2174,9 @@ const countries = {
 		en_short: "Luxembourg",
 		en_long: "Grand Duchy of Luxembourg",
 		orig: {
-			lb: {
-				ru: "люксембургский",
-				en: "Luxembourgish",
-				name: "Groussherzogtum Lëtzebuerg",},
-			de: {
-				ru: "немецкий",
-				en: "German",
-				name: "Großherzogtum Luxemburg",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Grand-Duché de Luxembourg",},
+			lb: {name: "Groussherzogtum Lëtzebuerg",},
+			de: {name: "Großherzogtum Luxemburg",},
+			fr: {name: "Grand-Duché de Luxembourg",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2466,7 +2190,7 @@ const countries = {
 		en_short: "Latvia",
 		en_long: "Republic of Latvia",
 		orig: {
-			lv: { ru: "латышский", en: "Latvian", name: "Latvijas Republika" },
+			lv: {name: "Latvijas Republika" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2480,7 +2204,7 @@ const countries = {
 		en_short: "Libya",
 		en_long: "State of Libya",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "دَوْلَةُ ليبيا" },
+			ar: {name: "دَوْلَةُ ليبيا" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2494,11 +2218,8 @@ const countries = {
 		en_short: "Morocco",
 		en_long: "Kingdom of Morocco",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "ٱلْمَمْلَكَة المغربية" },
-			zgh: {
-				ru: "стандартный марокканский берберский (тамазигхт)",
-				en: "Tamazight",
-				name: "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",},
+			ar: {name: "ٱلْمَمْلَكَة المغربية" },
+			zgh: {name: "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2512,10 +2233,7 @@ const countries = {
 		en_short: "Monaco",
 		en_long: "Principality of Monaco",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Principauté de Monaco",},
+			fr: {name: "Principauté de Monaco",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2529,7 +2247,7 @@ const countries = {
 		en_short: "Moldova",
 		en_long: "Republic of Moldova",
 		orig: {
-			ro: { ru: "румынский", en: "Romanian", name: "Republica Moldova" },
+			ro: {name: "Republica Moldova" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2543,14 +2261,8 @@ const countries = {
 		en_short: "Montenegro",
 		en_long: "",
 		orig: {
-			"cnr-l": {
-				ru: "черногорский, латиница",
-				en: "Montenegrin (Latin)",
-				name: "Crna Gora",},
-			"cnr-c": {
-				ru: "черногорский, кириллица",
-				en: "Montenegrin (Cyrillic)",
-				name: "Црна Гора",},
+			"cnr-l": {name: "Crna Gora",},
+			"cnr-c": {name: "Црна Гора",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2565,10 +2277,7 @@ const countries = {
 		en_short: "Saint Martin",
 		en_long: "Collectivity of Saint Martin",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Collectivité de Saint-Martin",},
+			fr: {name: "Collectivité de Saint-Martin",},
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -2584,14 +2293,8 @@ const countries = {
 		en_short: "Madagascar",
 		en_long: "Republic of Madagascar",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Madagascar",},
-			mg: {
-				ru: "малагасийский",
-				en: "Malagasy",
-				name: "Repoblikan'i Madagasikara",},
+			fr: {name: "République de Madagascar",},
+			mg: {name: "Repoblikan'i Madagasikara",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2606,10 +2309,7 @@ const countries = {
 		en_long: "Republic of the Marshall Islands",
 		orig: {
 			en: {name: "Republic of the Marshall Islands",},
-			mh: {
-				ru: "маршалльский",
-				en: "Marshallese",
-				name: "Aolepān Aorōkin Ṃajeḷ",},
+			mh: {name: "Aolepān Aorōkin Ṃajeḷ",},
 		},
 		type: ["Oceania",],
 		is_recognized: true,
@@ -2623,14 +2323,8 @@ const countries = {
 		en_short: "North Macedonia",
 		en_long: "Republic of North Macedonia",
 		orig: {
-			mk: {
-				ru: "македонский",
-				en: "Macedonian",
-				name: "Република Северна Македонија",},
-			sq: {
-				ru: "албанский",
-				en: "Albanian",
-				name: "Republika e Maqedonisë së Veriut",},
+			mk: {name: "Република Северна Македонија",},
+			sq: {name: "Republika e Maqedonisë së Veriut",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -2644,14 +2338,11 @@ const countries = {
 		en_short: "Mali",
 		en_long: "Republic of Mali",
 		orig: {
-			bm: { ru: "бамбара", en: "Bambara", name: "Mali ka Fasojamana" },
-			ff: { ru: "фула", en: "Fula", name: "Republik bu Maali" },
-			mey: {
-				ru: "хассания",
-				en: "Hassaniyya",
-				name: "جُمْهُورِيَّةْ مَالِي",},
-			snk: { ru: "сонинке", en: "Soninke", name: "Mali Tɔgɔbadugu" },
-			tmh: { ru: "тамашек", en: "Tamasheq", name: "ⵜⴰⴳⴷⵓⴷⴰ ⵏ ⵎⴰⵍⵉ" },
+			bm: {name: "Mali ka Fasojamana" },
+			ff: {name: "Republik bu Maali" },
+			mey: {name: "جُمْهُورِيَّةْ مَالِي",},
+			snk: {name: "Mali Tɔgɔbadugu" },
+			tmh: {name: "ⵜⴰⴳⴷⵓⴷⴰ ⵏ ⵎⴰⵍⵉ" },
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2665,10 +2356,7 @@ const countries = {
 		en_short: "Myanmar",
 		en_long: "Republic of the Union of Myanmar",
 		orig: {
-			my: {
-				ru: "бирманский",
-				en: "Burmese",
-				name: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",},
+			my: {name: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2682,11 +2370,8 @@ const countries = {
 		en_short: "Mongolia",
 		en_long: "",
 		orig: {
-			mn: { ru: "монгольский", en: "Mongolian", name: "ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ" },
-			"mn-c": {
-				ru: "монгольский, кириллица",
-				en: "Mongolian (Cyrillic)",
-				name: "Монгол Улс",},
+			mn: {name: "ᠮᠤᠩᠭᠤᠯ ᠤᠯᠤᠰ" },
+			"mn-c": {name: "Монгол Улс",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2701,14 +2386,8 @@ const countries = {
 		en_short: "Macao",
 		en_long: "Macao Special Administrative Region",
 		orig: {
-			"zh-t": {
-				ru: "китайский традиционный",
-				en: "Chinese Traditional",
-				name: "澳門特別行政區",},
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "Região Administrativa Especial de Macau",},
+			"zh-t": {name: "澳門特別行政區",},
+			pt: {name: "Região Administrativa Especial de Macau",},
 		},
 		type: ["Asia", "Subdivision",],
 		is_recognized: true,
@@ -2724,14 +2403,8 @@ const countries = {
 		en_short: "Northern Mariana Islands",
 		en_long: "Commonwealth of the Northern Mariana Islands",
 		orig: {
-			cal: {
-				ru: "каролинский",
-				en: "Carolinian",
-				name: "Commonwealth Téél Falúw kka Efáng llól Marianas",},
-			ch: {
-				ru: "чаморро",
-				en: "Chamorro",
-				name: "Sankattan Siha Na Islas Mariånas",},
+			cal: {name: "Commonwealth Téél Falúw kka Efáng llól Marianas",},
+			ch: {name: "Sankattan Siha Na Islas Mariånas",},
 			en: {name: "Commonwealth of the Northern Mariana Islands",},
 		},
 		type: ["Oceania", "Subdivision",],
@@ -2748,7 +2421,7 @@ const countries = {
 		en_short: "Martinique",
 		en_long: "",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Martinique" },
+			fr: {name: "Martinique" },
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -2763,10 +2436,7 @@ const countries = {
 		en_short: "Mauritania",
 		en_long: "Islamic Republic of Mauritania",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "الجمهورية الإسلامية الموريتانية",},
+			ar: {name: "الجمهورية الإسلامية الموريتانية",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2796,10 +2466,7 @@ const countries = {
 		en_short: "Malta",
 		en_long: "Republic of Malta",
 		orig: {
-			mt: {
-				ru: "мальтийский",
-				en: "Maltese",
-				name: "Repubblika ta' Malta",},
+			mt: {name: "Repubblika ta' Malta",},
 			en: {name: "Republic of Malta" },
 		},
 		type: ["Europe",],
@@ -2815,14 +2482,8 @@ const countries = {
 		en_long: "Republic of Mauritius",
 		orig: {
 			en: {name: "Republic of Mauritius",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Maurice",},
-			mfe: {
-				ru: "маврикийский креольский",
-				en: "Mauritian Creole",
-				name: "Repiblik Moris",},
+			fr: {name: "République de Maurice",},
+			mfe: {name: "Repiblik Moris",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2836,10 +2497,7 @@ const countries = {
 		en_short: "Maldives",
 		en_long: "Republic of Maldives",
 		orig: {
-			dv: {
-				ru: "мальдивский",
-				en: "Dhivehi",
-				name: "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",},
+			dv: {name: "ދިވެހިރާއްޖޭގެ ޖުމްހޫރިއްޔާ",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2867,10 +2525,7 @@ const countries = {
 		en_short: "Mexico",
 		en_long: "United Mexican States",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "Estados Unidos Mexicanos",},
+			es: {name: "Estados Unidos Mexicanos",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -2884,10 +2539,7 @@ const countries = {
 		en_short: "Malaysia",
 		en_long: "",
 		orig: {
-			"ms-l": {
-				ru: "малайский, латиница",
-				en: "Malay (Latin)",
-				name: "Malaysia",},
+			"ms-l": {name: "Malaysia",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -2901,10 +2553,7 @@ const countries = {
 		en_short: "Mozambique",
 		en_long: "Republic of Mozambique",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República de Moçambique",},
+			pt: {name: "República de Moçambique",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2933,7 +2582,7 @@ const countries = {
 		en_short: "New Caledonia",
 		en_long: "",
 		orig: {
-			fr: { ru: "французский", en: "French", name: "Nouvelle-Calédonie" },
+			fr: {name: "Nouvelle-Calédonie" },
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -2948,10 +2597,7 @@ const countries = {
 		en_short: "Niger",
 		en_long: "Republic of the Niger",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Niger",},
+			fr: {name: "République du Niger",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -2967,10 +2613,7 @@ const countries = {
 		en_long: "Territory of Norfolk Island",
 		orig: {
 			en: {name: "Territory of Norfolk Island",},
-			pih: {
-				ru: "норфолкский",
-				en: "Norf'k",
-				name: "Teratri a' Norf'k Ailen",},
+			"pih-n": {name: "Teratri a' Norf'k Ailen",},
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -2986,15 +2629,9 @@ const countries = {
 		en_long: "Federal Republic of Nigeria",
 		orig: {
 			en: {name: "Federal Republic of Nigeria",},
-			ha: {
-				ru: "хауса",
-				en: "Hausa",
-				name: "Jamhuriyar Tarayyar Najeriya",},
-			ig: { ru: "игбо", en: "Igbo", name: "Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà" },
-			yo: {
-				ru: "йоруба",
-				en: "Yoruba",
-				name: "Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà",},
+			ha: {name: "Jamhuriyar Tarayyar Najeriya",},
+			ig: {name: "Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà" },
+			yo: {name: "Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3008,10 +2645,7 @@ const countries = {
 		en_short: "Nicaragua",
 		en_long: "Republic of Nicaragua",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de Nicaragua",},
+			es: {name: "República de Nicaragua",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3025,10 +2659,7 @@ const countries = {
 		en_short: "Netherlands",
 		en_long: "Kingdom of the Netherlands",
 		orig: {
-			nl: {
-				ru: "нидерландский",
-				en: "Dutch",
-				name: "Koninkrijk der Nederlanden",},
+			nl: {name: "Koninkrijk der Nederlanden",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3042,15 +2673,9 @@ const countries = {
 		en_short: "Norway",
 		en_long: "Kingdom of Norway",
 		orig: {
-			se: {
-				ru: "северносаамский",
-				en: "Northern Sami",
-				name: "Norgga gonagasriika",},
-			nb: { ru: "букмол", en: "Bokmål", name: "Kongeriket Norge" },
-			nn: {
-				ru: "норвежский, нюнорск",
-				en: "Nynorsk",
-				name: "Kongeriket Noreg",},
+			se: {name: "Norgga gonagasriika",},
+			nb: {name: "Kongeriket Norge" },
+			nn: {name: "Kongeriket Noreg",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3064,10 +2689,7 @@ const countries = {
 		en_short: "Nepal",
 		en_long: "Federal Democratic Republic of Nepal",
 		orig: {
-			ne: {
-				ru: "непальский",
-				en: "Nepali",
-				name: "संघीय लोकतान्त्रिक गणतन्त्र नेपाल",},
+			ne: {name: "संघीय लोकतान्त्रिक गणतन्त्र नेपाल",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -3081,7 +2703,7 @@ const countries = {
 		en_short: "Nauru",
 		en_long: "Republic of Nauru",
 		orig: {
-			na: { ru: "науру", en: "Nauruan", name: "Ripublik Naoero" },
+			na: {name: "Ripublik Naoero" },
 			en: {name: "Republic of Nauru" },
 		},
 		type: ["Oceania",],
@@ -3096,7 +2718,7 @@ const countries = {
 		en_short: "Niue",
 		en_long: "",
 		orig: {
-			niu: { ru: "ниуэ", en: "Niuean", name: "Niuē" },
+			niu: {name: "Niuē" },
 			en: {name: "Niue" },
 		},
 		type: ["Oceania",],
@@ -3111,7 +2733,7 @@ const countries = {
 		en_short: "New Zealand",
 		en_long: "",
 		orig: {
-			mi: { ru: "маори", en: "Māori", name: "Aotearoa" },
+			mi: {name: "Aotearoa" },
 			en: {name: "New Zealand" },
 		},
 		type: ["Oceania",],
@@ -3127,12 +2749,9 @@ const countries = {
 		en_long: "Flag of the Olympic movement",
 		orig: {
 			en: {name: "Flag of the Olympic movement",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Le drapeau du mouvement olympique",},
+			fr: {name: "Le drapeau du mouvement olympique",},
 		},
-		type: ["Other", "Subdivision",],
+		type: ["Other",],
 		is_recognized: true,
 		resolution: "2:3",
 		resolution_ratio: 0.67,
@@ -3144,10 +2763,7 @@ const countries = {
 		en_short: "Oman",
 		en_long: "Sultanate of Oman",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْإِمَارَاتُ ٱلْعَرَبِيَّةُ ٱلْمُتَّحِدَةُ",},
+			ar: {name: "ٱلْإِمَارَاتُ ٱلْعَرَبِيَّةُ ٱلْمُتَّحِدَةُ",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -3161,14 +2777,8 @@ const countries = {
 		en_short: "South Ossetia",
 		en_long: "Republic of South Ossetia — the State of Alania",
 		orig: {
-			os: {
-				ru: "осетинский",
-				en: "Ossetian",
-				name: "Республикӕ Хуссар Ирыстон (Паддзахад Алани)",},
-			ru: {
-				ru: "русский",
-				en: "Russian",
-				name: "Республика Южная Осетия (Государство Алания)",},
+			os: {name: "Республикӕ Хуссар Ирыстон (Паддзахад Алани)",},
+			ru: {name: "Республика Южная Осетия (Государство Алания)",},
 		},
 		type: ["Europe",],
 		is_recognized: false,
@@ -3182,7 +2792,7 @@ const countries = {
 		en_short: "Panama",
 		en_long: "Republic of Panamá",
 		orig: {
-			es: { ru: "испанский", en: "Spanish", name: "República de Panamá" },
+			es: {name: "República de Panamá" },
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3196,9 +2806,9 @@ const countries = {
 		en_short: "Peru",
 		en_long: "Republic of Perú",
 		orig: {
-			qu: { ru: "кечуа", en: "Quechua", name: "Piruw Ripuwlika" },
-			ay: { ru: "аймара", en: "Aymara", name: "Piruwxa Ripuwlika" },
-			es: { ru: "испанский", en: "Spanish", name: "República del Perú" },
+			qu: {name: "Piruw Ripuwlika" },
+			ay: {name: "Piruwxa Ripuwlika" },
+			es: {name: "República del Perú" },
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3213,10 +2823,7 @@ const countries = {
 		en_short: "French Polynesia",
 		en_long: "",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Polynésie française",},
+			fr: {name: "Polynésie française",},
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -3231,14 +2838,8 @@ const countries = {
 		en_short: "Papua New Guinea",
 		en_long: "Independent State of Papua New Guinea",
 		orig: {
-			tpi: {
-				ru: "ток-писин",
-				en: "Tok Pisin",
-				name: "Independen Stet bilong Papua Niugini",},
-			ho: {
-				ru: "хири-моту",
-				en: "Hiri Motu",
-				name: "Independen Stet bilong Papua Niu Gini",},
+			tpi: {name: "Independen Stet bilong Papua Niugini",},
+			ho: {name: "Independen Stet bilong Papua Niu Gini",},
 			en: {name: "Independent State of Papua New Guinea",},
 		},
 		type: ["Oceania",],
@@ -3253,10 +2854,7 @@ const countries = {
 		en_short: "Philippines",
 		en_long: "Republic of the Philippines",
 		orig: {
-			fil: {
-				ru: "филиппинский",
-				en: "Filipino",
-				name: "Republika ng Pilipinas",},
+			fil: {name: "Republika ng Pilipinas",},
 			en: {name: "Republic of the Philippines",},
 		},
 		type: ["Asia",],
@@ -3272,7 +2870,7 @@ const countries = {
 		en_long: "Islamic Republic of Pakistan",
 		orig: {
 			en: {name: "Islamic Republic of Pakistan",},
-			ur: { ru: "урду", en: "Urdu", name: "اسلامی جمہوریہ پاکِستان" },
+			ur: {name: "اسلامی جمہوریہ پاکِستان" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -3286,7 +2884,7 @@ const countries = {
 		en_short: "Poland",
 		en_long: "Republic of Poland",
 		orig: {
-			pl: { ru: "польский", en: "Polish", name: "Rzeczpospolita Polska" },
+			pl: {name: "Rzeczpospolita Polska" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3301,10 +2899,7 @@ const countries = {
 		en_short: "Saint Pierre and Miquelon (Unofficial flag)",
 		en_long: "Territorial Collectivity of Saint-Pierre and Miquelon",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon",},
+			fr: {name: "Collectivité d'outre-mer de Saint-Pierre-et-Miquelon",},
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -3321,7 +2916,7 @@ const countries = {
 		en_long: "Pitcairn, Henderson, Ducie and Oeno Islands",
 		orig: {
 			en: {name: "Pitcairn, Henderson, Ducie and Oeno Islands",},
-			pih: { ru: "питкэрнский", en: "Pitkern", name: "Pitkern Ailen" },
+			"pih-p": {name: "Pitkern Ailen"},
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -3338,10 +2933,7 @@ const countries = {
 		en_long: "Commonwealth of Puerto Rico",
 		orig: {
 			en: {name: "Commonwealth of Puerto Rico",},
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "Estado Libre Asociado de Puerto Rico",},
+			es: {name: "Estado Libre Asociado de Puerto Rico",},
 		},
 		type: ["America", "Subdivision",],
 		is_recognized: true,
@@ -3356,10 +2948,7 @@ const countries = {
 		en_short: "Palestine",
 		en_long: "State of Palestine",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "السُّلْطَةُ ٱلْوَطَنِيَّةُ ٱلْفِلَسْطِينِيَّة",},
+			ar: {name: "السُّلْطَةُ ٱلْوَطَنِيَّةُ ٱلْفِلَسْطِينِيَّة",},
 		},
 		type: ["Middle_East",],
 		is_recognized: false,
@@ -3373,10 +2962,7 @@ const countries = {
 		en_short: "Portugal",
 		en_long: "Portuguese Republic",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República Portuguesa",},
+			pt: {name: "República Portuguesa",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3390,7 +2976,7 @@ const countries = {
 		en_short: "Palau",
 		en_long: "Republic of Palau",
 		orig: {
-			pau: { ru: "палауский", en: "Palauan", name: "Beluu er a Belau" },
+			pau: {name: "Beluu er a Belau" },
 			en: {name: "Republic of Palau" },
 		},
 		type: ["Oceania",],
@@ -3405,11 +2991,8 @@ const countries = {
 		en_short: "Paraguay",
 		en_long: "Republic of Paraguay",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República del Paraguay",},
-			gn: { ru: "гуарани", en: "Guarani", name: "Paraguái Tavakuairetã" },
+			es: {name: "República del Paraguay",},
+			gn: {name: "Paraguái Tavakuairetã" },
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3423,7 +3006,7 @@ const countries = {
 		en_short: "Qatar",
 		en_long: "State of Qatar",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "دولة قطر" },
+			ar: {name: "دولة قطر" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -3438,14 +3021,8 @@ const countries = {
 		en_short: "Réunion (Lö Mahavéli)",
 		en_long: "Department of Réunion",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Département de la Réunion",},
-			rcf: {
-				ru: "реюньонский креольский",
-				en: "Reunionese Creole",
-				name: "La Rényon",},
+			fr: {name: "Département de la Réunion",},
+			rcf: {name: "La Rényon",},
 		},
 		type: ["Africa", "Subdivision",],
 		is_recognized: true,
@@ -3460,7 +3037,7 @@ const countries = {
 		en_short: "Romania",
 		en_long: "",
 		orig: {
-			ro: { ru: "румынский", en: "Romanian", name: "România" },
+			ro: {name: "România" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3474,7 +3051,7 @@ const countries = {
 		en_short: "Serbia",
 		en_long: "Republic of Serbia",
 		orig: {
-			sr: { ru: "сербский", en: "Serbian", name: "Република Србија" },
+			sr: {name: "Република Србија" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3488,7 +3065,7 @@ const countries = {
 		en_short: "Russia",
 		en_long: "Russian Federation",
 		orig: {
-			ru: { ru: "русский", en: "Russian", name: "Российская Федерация" },
+			ru: {name: "Российская Федерация" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3502,15 +3079,9 @@ const countries = {
 		en_short: "Rwanda",
 		en_long: "Republic of Rwanda",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Rwanda",},
-			rw: {
-				ru: "киньяруанда",
-				en: "Kinyarwanda",
-				name: "Repubulika y'u Rwanda",},
-			sw: { ru: "суахили", en: "Swahili", name: "Jamhuri ya Rwanda" },
+			fr: {name: "République du Rwanda",},
+			rw: {name: "Repubulika y'u Rwanda",},
+			sw: {name: "Jamhuri ya Rwanda" },
 			en: {name: "Republic of Rwanda" },
 		},
 		type: ["Africa",],
@@ -3525,10 +3096,7 @@ const countries = {
 		en_short: "Saudi Arabia",
 		en_long: "Kingdom of Saudi Arabia",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْمَمْلَكَة ٱلْعَرَبِيَّة ٱلسُّعُوْدِيَّة",},
+			ar: {name: "ٱلْمَمْلَكَة ٱلْعَرَبِيَّة ٱلسُّعُوْدِيَّة",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -3542,10 +3110,7 @@ const countries = {
 		en_short: "Solomon Islands",
 		en_long: "",
 		orig: {
-			pis: {
-				ru: "пиджин Соломоновых Островов",
-				en: "Neo-Solomonic",
-				name: "Solomon Aelan",},
+			pis: {name: "Solomon Aelan",},
 			en: {name: "Solomon Islands" },
 		},
 		type: ["Oceania",],
@@ -3560,14 +3125,8 @@ const countries = {
 		en_short: "Seychelles",
 		en_long: "Republic of Seychelles",
 		orig: {
-			crs: {
-				ru: "сейшельский креольский",
-				en: "Seychellois Creole",
-				name: "Repiblik Sesel",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République des Seychelles",},
+			crs: {name: "Repiblik Sesel",},
+			fr: {name: "République des Seychelles",},
 			en: {name: "Republic of Seychelles",},
 		},
 		type: ["Africa",],
@@ -3582,10 +3141,7 @@ const countries = {
 		en_short: "Sudan",
 		en_long: "Republic of the Sudan",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْجُمْهُورِيَّةُ السودان",},
+			ar: {name: "ٱلْجُمْهُورِيَّةُ السودان",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3599,7 +3155,7 @@ const countries = {
 		en_short: "Sweden",
 		en_long: "Kingdom of Sweden",
 		orig: {
-			sv: { ru: "шведский", en: "Swedish", name: "Konungariket Sverige" },
+			sv: {name: "Konungariket Sverige" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3613,10 +3169,10 @@ const countries = {
 		en_short: "Singapore",
 		en_long: "Republic of Singapore",
 		orig: {
-			ms: { ru: "малайский", en: "Malay", name: "Republik Singapura" },
+			ms: {name: "Republik Singapura" },
 			en: {name: "Republic of Singapore",},
-			zh: { ru: "китайский", en: "Chinese", name: "新加坡共和国" },
-			ta: { ru: "тамильский", en: "Tamil", name: "சிங்கப்பூர் குடியரசு" },
+			zh: {name: "新加坡共和国" },
+			ta: {name: "சிங்கப்பூர் குடியரசு" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -3647,10 +3203,7 @@ const countries = {
 		en_short: "Slovenia",
 		en_long: "Republic of Slovenia",
 		orig: {
-			sl: {
-				ru: "словенский",
-				en: "Slovenian",
-				name: "Republika Slovenija",},
+			sl: {name: "Republika Slovenija",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3665,10 +3218,7 @@ const countries = {
 		en_short: "Svalbard and Jan Mayen",
 		en_long: "Svalbard and Jan Mayen Islands",
 		orig: {
-			no: {
-				ru: "норвежский",
-				en: "Norwegian",
-				name: "Svalbbard og Jan Mayen",},
+			no: {name: "Svalbbard og Jan Mayen",},
 		},
 		type: ["Europe", "Subdivision",],
 		is_recognized: true,
@@ -3684,7 +3234,7 @@ const countries = {
 		en_short: "Slovakia",
 		en_long: "Slovak Republic",
 		orig: {
-			sk: { ru: "словацкий", en: "Slovak", name: "Slovenská republika" },
+			sk: {name: "Slovenská republika" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3712,10 +3262,7 @@ const countries = {
 		en_short: "San Marino",
 		en_long: "Republic of San Marino",
 		orig: {
-			it: {
-				ru: "итальянский",
-				en: "Italian",
-				name: "Repubblica di San Marino",},
+			it: {name: "Repubblica di San Marino",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -3729,10 +3276,7 @@ const countries = {
 		en_short: "Senegal",
 		en_long: "Republic of Senegal",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Sénégal",},
+			fr: {name: "République du Sénégal",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3746,14 +3290,8 @@ const countries = {
 		en_short: "Somalia",
 		en_long: "Federal Republic of Somalia",
 		orig: {
-			so: {
-				ru: "сомалийский",
-				en: "Somali",
-				name: "Jamhuuriyadda Federaalka Soomaaliya",},
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "جمهورية الصومال الفيدرالية",},
+			so: {name: "Jamhuuriyadda Federaalka Soomaaliya",},
+			ar: {name: "جمهورية الصومال الفيدرالية",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3767,10 +3305,7 @@ const countries = {
 		en_short: "Suriname",
 		en_long: "Republic of Suriname",
 		orig: {
-			nl: {
-				ru: "нидерландский",
-				en: "Dutch",
-				name: "Republiek Suriname",},
+			nl: {name: "Republiek Suriname",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3798,10 +3333,7 @@ const countries = {
 		en_short: "São Tomé and Príncipe",
 		en_long: "Democratic Republic of São Tomé and Príncipe",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República Democrática de São Tomé e Príncipe",},
+			pt: {name: "República Democrática de São Tomé e Príncipe",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3815,10 +3347,7 @@ const countries = {
 		en_short: "USSR",
 		en_long: "Union of Soviet Socialist Republics",
 		orig: {
-			ru: {
-				ru: "русский",
-				en: "Russian",
-				name: "Союз Советских Социалистических Республик",},
+			ru: {name: "Союз Советских Социалистических Республик",},
 		},
 		type: ["Other"],
 		is_recognized: true,
@@ -3832,10 +3361,7 @@ const countries = {
 		en_short: "El Salvador",
 		en_long: "Republic of El Salvador",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República de El Salvador",},
+			es: {name: "República de El Salvador",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -3850,7 +3376,7 @@ const countries = {
 		en_short: "Sint Maarten",
 		en_long: "",
 		orig: {
-			nl: { ru: "нидерландский", en: "Dutch", name: "Sint Maarten" },
+			nl: {name: "Sint Maarten" },
 			en: {name: "Sint Maarten" },
 		},
 		type: ["America", "Subdivision",],
@@ -3866,10 +3392,7 @@ const countries = {
 		en_short: "Syria",
 		en_long: "Syrian Arab Republic",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ ٱلسُّورِيَّةُ",},
+			ar: {name: "ٱلْجُمْهُورِيَّةُ ٱلْعَرَبِيَّةُ ٱلسُّورِيَّةُ",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -3883,7 +3406,7 @@ const countries = {
 		en_short: "Eswatini",
 		en_long: "Kingdom of Eswatini",
 		orig: {
-			ss: { ru: "свази", en: "Swazi", name: "Umbuso weSwatini" },
+			ss: {name: "Umbuso weSwatini" },
 			en: {name: "Kingdom of Eswatini",},
 		},
 		type: ["Africa",],
@@ -3930,14 +3453,8 @@ const countries = {
 		en_short: "Chad",
 		en_long: "Republic of Chad",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République du Tchad",},
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "اَلْجُمْهُورِيَّة تشاد",},
+			fr: {name: "République du Tchad",},
+			ar: {name: "اَلْجُمْهُورِيَّة تشاد",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3952,10 +3469,7 @@ const countries = {
 		en_short: "French Southern Territories",
 		en_long: "French Southern and Antarctic Lands",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Territoire des Terres australes et antarctiques françaises",},
+			fr: {name: "Territoire des Terres australes et antarctiques françaises",},
 		},
 		type: ["Africa", "Subdivision",],
 		is_recognized: true,
@@ -3970,10 +3484,7 @@ const countries = {
 		en_short: "Togo",
 		en_long: "Togolese Republic",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République Togolaise",},
+			fr: {name: "République Togolaise",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -3987,7 +3498,7 @@ const countries = {
 		en_short: "Thailand",
 		en_long: "Kingdom of Thailand",
 		orig: {
-			th: { ru: "тайский", en: "Thai", name: "ราชอาณาจักรไทย" },
+			th: {name: "ราชอาณาจักรไทย" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4001,7 +3512,7 @@ const countries = {
 		en_short: "Tajikistan",
 		en_long: "Republic of Tajikistan",
 		orig: {
-			tg: { ru: "таджикский", en: "Tajik", name: "Ҷумҳурии Тоҷикистон" },
+			tg: {name: "Ҷумҳурии Тоҷикистон" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4017,7 +3528,7 @@ const countries = {
 		en_long: "",
 		orig: {
 			en: {name: "Tokelau" },
-			tkl: { ru: "токелау", en: "Tokelauan", name: "Tokelau" },
+			tkl: {name: "Tokelau" },
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -4032,14 +3543,8 @@ const countries = {
 		en_short: "Timor-Leste",
 		en_long: "Democratic Republic of Timor-Leste",
 		orig: {
-			pt: {
-				ru: "португальский",
-				en: "Portuguese",
-				name: "República Democrática de Timor-Leste",},
-			tet: {
-				ru: "тетум",
-				en: "Tetum",
-				name: "Repúblika Demokrátika Timor-Leste",},
+			pt: {name: "República Democrática de Timor-Leste",},
+			tet: {name: "Repúblika Demokrátika Timor-Leste",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4053,7 +3558,7 @@ const countries = {
 		en_short: "Turkmenistan",
 		en_long: "",
 		orig: {
-			tk: { ru: "туркменский", en: "Turkmen", name: "Türkmenistan" },
+			tk: {name: "Türkmenistan" },
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4067,10 +3572,7 @@ const countries = {
 		en_short: "Tunisia",
 		en_long: "Republic of Tunisia",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْجُمْهُورِيَّةُ التونسية",},
+			ar: {name: "ٱلْجُمْهُورِيَّةُ التونسية",},
 		},
 		type: ["Africa",],
 		is_recognized: true,
@@ -4084,10 +3586,7 @@ const countries = {
 		en_short: "Tonga",
 		en_long: "Kingdom of Tonga",
 		orig: {
-			to: {
-				ru: "тонганский",
-				en: "Tongan",
-				name: "Puleʻanga Fakatuʻi ʻo Tonga",},
+			to: {name: "Puleʻanga Fakatuʻi ʻo Tonga",},
 			en: {name: "Kingdom of Tonga" },
 		},
 		type: ["Oceania",],
@@ -4102,7 +3601,7 @@ const countries = {
 		en_short: "Türkiye",
 		en_long: "Republic of Türkiye",
 		orig: {
-			tr: { ru: "турецкий", en: "Turkish", name: "Türkiye Cumhuriyeti" },
+			tr: {name: "Türkiye Cumhuriyeti" },
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -4130,7 +3629,7 @@ const countries = {
 		en_short: "Tuvalu",
 		en_long: "",
 		orig: {
-			tvl: { ru: "тувалу", en: "Tuvaluan", name: "Tuvalu" },
+			tvl: {name: "Tuvalu" },
 			en: {name: "Tuvalu" },
 		},
 		type: ["Oceania",],
@@ -4145,7 +3644,7 @@ const countries = {
 		en_short: "Taiwan",
 		en_long: "Chinese Taipei",
 		orig: {
-			zh: { ru: "китайский", en: "Chinese", name: "中華民國" },
+			zh: {name: "中華民國" },
 		},
 		type: ["Asia",],
 		is_recognized: false,
@@ -4159,10 +3658,7 @@ const countries = {
 		en_short: "Tanzania",
 		en_long: "United Republic of Tanzania",
 		orig: {
-			sw: {
-				ru: "суахили",
-				en: "Swahili",
-				name: "Jamhuri ya Muungano wa Tanzania",},
+			sw: {name: "Jamhuri ya Muungano wa Tanzania",},
 			en: {name: "United Republic of Tanzania",},
 		},
 		type: ["Africa",],
@@ -4177,7 +3673,7 @@ const countries = {
 		en_short: "Ukraine",
 		en_long: "",
 		orig: {
-			uk: { ru: "украинский", en: "Ukrainian", name: "Україна" },
+			uk: {name: "Україна" },
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -4191,7 +3687,7 @@ const countries = {
 		en_short: "Uganda",
 		en_long: "Republic of Uganda",
 		orig: {
-			sw: { ru: "суахили", en: "Swahili", name: "Jamhuri ya Uganda" },
+			sw: {name: "Jamhuri ya Uganda" },
 			en: {name: "Republic of Uganda" },
 		},
 		type: ["Africa",],
@@ -4223,23 +3719,14 @@ const countries = {
 		en_short: "United Nations",
 		en_long: "",
 		orig: {
-			ar: { ru: "арабский", en: "Arabic", name: "منظمة الأمم المتحدة" },
-			zh: { ru: "китайский", en: "Chinese", name: "联合国" },
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Organisation des Nations unies",},
-			ru: {
-				ru: "русский",
-				en: "Russian",
-				name: "Организация Объединённых Наций",},
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "Organización de las Naciones Unidas",},
+			ar: {name: "منظمة الأمم المتحدة" },
+			zh: {name: "联合国" },
+			fr: {name: "Organisation des Nations unies",},
+			ru: {name: "Организация Объединённых Наций",},
+			es: {name: "Organización de las Naciones Unidas",},
 			en: {name: "United Nations" },
 		},
-		type: ["Other", "Subdivision",],
+		type: ["Other",],
 		is_recognized: true,
 		resolution: "2:3",
 		resolution_ratio: 0.67,
@@ -4265,10 +3752,7 @@ const countries = {
 		en_short: "Uruguay",
 		en_long: "Oriental Republic of Uruguay",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República Oriental del Uruguay",},
+			es: {name: "República Oriental del Uruguay",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -4282,10 +3766,7 @@ const countries = {
 		en_short: "Uzbekistan",
 		en_long: "Republic of Uzbekistan",
 		orig: {
-			uz: {
-				ru: "узбекский",
-				en: "Uzbek",
-				name: "Oʻzbekiston Respublikasi",},
+			uz: {name: "Oʻzbekiston Respublikasi",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4299,14 +3780,8 @@ const countries = {
 		en_short: "Vatican City",
 		en_long: "Vatican City State",
 		orig: {
-			la: {
-				ru: "латынь",
-				en: "Latin",
-				name: "Status Civitatis Vaticanae",},
-			it: {
-				ru: "итальянский",
-				en: "Italian",
-				name: "Stato della Città del Vaticano",},
+			la: {name: "Status Civitatis Vaticanae",},
+			it: {name: "Stato della Città del Vaticano",},
 		},
 		type: ["Europe",],
 		is_recognized: true,
@@ -4334,10 +3809,7 @@ const countries = {
 		en_short: "Venezuela",
 		en_long: "Bolivarian Republic of Venezuela",
 		orig: {
-			es: {
-				ru: "испанский",
-				en: "Spanish",
-				name: "República Bolivariana de Venezuela",},
+			es: {name: "República Bolivariana de Venezuela",},
 		},
 		type: ["America",],
 		is_recognized: true,
@@ -4383,10 +3855,7 @@ const countries = {
 		en_short: "Vietnam",
 		en_long: "Socialist Republic of Vietnam",
 		orig: {
-			vi: {
-				ru: "вьетнамский",
-				en: "Vietnamese",
-				name: "Cộng hòa xã hội chủ nghĩa Việt Nam",},
+			vi: {name: "Cộng hòa xã hội chủ nghĩa Việt Nam",},
 		},
 		type: ["Asia",],
 		is_recognized: true,
@@ -4400,14 +3869,8 @@ const countries = {
 		en_short: "Vanuatu",
 		en_long: "Republic of Vanuatu",
 		orig: {
-			bi: {
-				ru: "бислама",
-				en: "Bislama",
-				name: "Ripablik blong Vanuatu",},
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "République de Vanuatu",},
+			bi: {name: "Ripablik blong Vanuatu",},
+			fr: {name: "République de Vanuatu",},
 			en: {name: "Republic of Vanuatu",},
 		},
 		type: ["Oceania",],
@@ -4423,10 +3886,7 @@ const countries = {
 		en_short: "Wallis and Futuna (Unofficial flag)",
 		en_long: "Territory of the Wallis and Futuna Islands",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Territoire des îles Wallis-et-Futuna",},
+			fr: {name: "Territoire des îles Wallis-et-Futuna",},
 		},
 		type: ["Oceania", "Subdivision",],
 		is_recognized: true,
@@ -4441,7 +3901,7 @@ const countries = {
 		en_short: "Wiphala",
 		en_long: "Flag of the native peoples of the Andes",
 		orig: {},
-		type: ["America", "Subdivision",],
+		type: ["America",],
 		is_recognized: true,
 		resolution: "1:1",
 		resolution_ratio: "1.0",
@@ -4453,10 +3913,7 @@ const countries = {
 		en_short: "Samoa",
 		en_long: "Independent State of Samoa",
 		orig: {
-			sm: {
-				ru: "самоанский",
-				en: "Samoan",
-				name: "Malo Saʻoloto Tutoʻatasi o Sāmoa",},
+			sm: {name: "Malo Saʻoloto Tutoʻatasi o Sāmoa",},
 			en: {name: "Independent State of Samoa",},
 		},
 		type: ["Oceania",],
@@ -4471,11 +3928,8 @@ const countries = {
 		en_short: "Kosovo",
 		en_long: "Republic of Kosovo",
 		orig: {
-			sq: {
-				ru: "албанский",
-				en: "Albanian",
-				name: "Republika e Kosovës",},
-			sr: { ru: "сербский", en: "Serbian", name: "Република Косово" },
+			sq: {name: "Republika e Kosovës",},
+			sr: {name: "Република Косово" },
 		},
 		type: ["Europe",],
 		is_recognized: false,
@@ -4489,10 +3943,7 @@ const countries = {
 		en_short: "Yemen",
 		en_long: "Republic of Yemen",
 		orig: {
-			ar: {
-				ru: "арабский",
-				en: "Arabic",
-				name: "ٱلْجُمْهُورِيَّةُ ٱلْيَمَنِيَّةُ",},
+			ar: {name: "ٱلْجُمْهُورِيَّةُ ٱلْيَمَنِيَّةُ",},
 		},
 		type: ["Middle_East",],
 		is_recognized: true,
@@ -4507,10 +3958,7 @@ const countries = {
 		en_short: "Mayotte",
 		en_long: "",
 		orig: {
-			fr: {
-				ru: "французский",
-				en: "French",
-				name: "Département de Mayotte",},
+			fr: {name: "Département de Mayotte",},
 		},
 		type: ["Africa", "Subdivision",],
 		is_recognized: true,
@@ -4526,47 +3974,17 @@ const countries = {
 		en_short: "South Africa",
 		en_long: "Republic of South Africa",
 		orig: {
-			af: {
-				ru: "африкаанс",
-				en: "Afrikaans",
-				name: "Republiek van Suid-Afrika",},
+			af: {name: "Republiek van Suid-Afrika",},
 			en: {name: "Republic of South Africa",},
-			nr: {
-				ru: "южный ндебеле",
-				en: "Ndebele",
-				name: "IRiphabliki yeSewula Afrika",},
-			nso: {
-				ru: "северный сото",
-				en: "Sepedi",
-				name: "Repabliki ya Afrika-Borwa",},
-			st: {
-				ru: "сесото",
-				en: "Sesotho",
-				name: "Rephaboliki ya Afrika Borwa",},
-			tn: {
-				ru: "тсвана",
-				en: "Setswana",
-				name: "Rephaboliki ya Aforika Borwa",},
-			ss: {
-				ru: "свази",
-				en: "Swazi",
-				name: "iRiphabhulikhi yaseNingizimu-Afrika",},
-			ve: {
-				ru: "венда",
-				en: "Tshivenda",
-				name: "Riphabuḽiki ya Afurika Tshipembe",},
-			xh: {
-				ru: "коса",
-				en: "Xhosa",
-				name: "iRiphabhlikhi yoMzantsi Afrika",},
-			ts: {
-				ru: "тсонга",
-				en: "Xitsonga",
-				name: "Riphabliki ya Afrika Dzonga",},
-			zu: {
-				ru: "зулусский",
-				en: "Zulu",
-				name: "iRiphabhuliki yaseNingizimu Afrika",},
+			nr: {name: "IRiphabliki yeSewula Afrika",},
+			nso: {name: "Repabliki ya Afrika-Borwa",},
+			st: {name: "Rephaboliki ya Afrika Borwa",},
+			tn: {name: "Rephaboliki ya Aforika Borwa",},
+			ss: {name: "iRiphabhulikhi yaseNingizimu-Afrika",},
+			ve: {name: "Riphabuḽiki ya Afurika Tshipembe",},
+			xh: {name: "iRiphabhlikhi yoMzantsi Afrika",},
+			ts: {name: "Riphabliki ya Afrika Dzonga",},
+			zu: {name: "iRiphabhuliki yaseNingizimu Afrika",},
 		},
 		type: ["Africa",],
 		is_recognized: true,

@@ -1,101 +1,39 @@
-function countCountries(){
-	let countries_number = 0;
-	for (i in countries) { 
-		countries_number++; 
-	}
-	return countries_number;
-}
-
-function countTypes(){
-	let types = {};
-	let types_sorted = [];
-	for (i in countries){
-		for (j = 0; j < countries[i].type.length; j++){
-			types[countries[i].type[j]] == undefined ? types[countries[i].type[j]] = 1 : types[countries[i].type[j]]++;
-		}
-	}
-	types_sorted = Object.entries(types).sort((a, b) => b[1] - a[1]);
-	return types_sorted;
-}
-
-function countUnrecognized(){
-	let unrecognized = 0;
-	for (i in countries){
-		if (countries[i].is_recognized == false) unrecognized++;
-	}
-	return unrecognized;
-}
-
-function filterCountries(filter) {
-	let temp_countries_object = {};
-
-	for (i in countries) {
-		if (filter == "All") {
-			temp_countries_object[i] = countries[i];
-		} else {
-			if (countries[i].type.includes(filter))
-				temp_countries_object[i] = countries[i];
-		}
-
-		if (filter == "Unrecognized") {
-			if (!countries[i].is_recognized)
-				temp_countries_object[i] = countries[i];
-		}
-	}
-	return temp_countries_object;
-}
-
-function updateCountries() {
-	let flag_cards = {};
-	let temp_countries_object = filterCountries(getTypeRadio());
-	for (i in temp_countries_object) {
-		flag_cards[i] = temp_countries_object[i];
-	}
-	return flag_cards;
-}
-
-function getLanguage() {
-	return document.documentElement.lang;
-}
-
-function getCardSample(country, currentLang){
+function getCardSample(i, currentLang){
 	let card = "";
-	card += "<div class='flag_card'>";
 
 	let index_ISO = "";
-	if (country.index_ISO == false) index_ISO = " flag_index_fake";
+	if (countries[i].index_ISO == false) index_ISO = " flag_index_fake";
 
 	card += "<span class='flag_index" + index_ISO + "'>";
-	// i don't know wtf the I works
 	card += i;
 	card += "</span><div class=flag_img>";
 
-	let size = country.resolution_ratio;
+	let size = countries[i].resolution_ratio;
 	if (size != 0.5 && size != 0.67 && size != 0.75 && size != 1.0) size = "O"; //O for Original
 	
 	let flag_index = '';
-	country.parent_flag != undefined ? flag_index = country.parent_flag : flag_index = i;
+	countries[i].parent_flag != undefined ? flag_index = countries[i].parent_flag : flag_index = i;
 
 	card += "<img class='lazy' src='flags/PNG-30/PNG-" + size + "/" + flag_index + "-" + size + "-30.png' data-src='flags/PNG-1200/PNG-" + size + "/" + flag_index + "-" + size + "-1200.png'>";
 	card += "</div><div class=flag_shortname>";
-	card += country[currentLang + '_short'];
+	card += countries[i][currentLang + '_short'];
 	card += "</div>";
-	if (country[currentLang + '_long']) {
+	if (countries[i][currentLang + '_long']) {
 		card += "<div class=flag_longname>";
-		card += country[currentLang + '_long'];
+		card += countries[i][currentLang + '_long'];
 		card += "</div>";
 	}
 
 	// ежели название одно и совпадает с longname, то контейнер orig не создаётся вообще
-	let original_names_count = Object.keys(country.orig).length;
-	if (country.orig && !(original_names_count == 1 && Object.keys(country.orig) == currentLang)){
+	let original_names_count = Object.keys(countries[i].orig).length;
+	if (countries[i].orig && !(original_names_count == 1 && Object.keys(countries[i].orig) == currentLang)){
 		card += "<div class='flag_names_container'>";
 		let official_languages_count = 0;
-		for (j in country.orig){
+		for (j in countries[i].orig){
 			official_languages_count++;
 			if (j != currentLang){
 				card += "<span class='flag_original_lang' title='" + languages[j][currentLang] + "'>" + j + "</span>";
-				card += "<span>" + country.orig[j].name + "</span>";
+				card += "<span>" + countries[i].orig[j].name + "</span>";
 			}
 			if (official_languages_count > 3 && original_names_count != official_languages_count) {
 				card += "<span class='flag_original_lang'>+" + (original_names_count - official_languages_count) + "</span>";
@@ -116,67 +54,7 @@ function getCardSample(country, currentLang){
 		
 	}
 	card += "</div>";
-	card += "</div>";
 	return card;
-}
-
-function makeCards() {
-	let container = document.querySelector("#flags");
-	container.innerHTML = "";
-	let countries_array = updateCountries();
-	let currentLang = getLanguage();
-	let cards = "";
-	// sorting
-	for (i in countries_array) {
-		if (countries_array[i].is_recognized) cards += getCardSample(countries_array[i], currentLang);
-	}
-	for (i in countries_array) {
-		if (!countries_array[i].is_recognized) cards += getCardSample(countries_array[i], currentLang);
-	} 
-	container.innerHTML = cards;
-	ll.update();
-	// штобы карточки открывались
-	for (i = 0; i < document.querySelectorAll('.flag_card').length; i++){
-		document.querySelectorAll('.flag_card')[i].addEventListener("click", (event) => {
-			toggleCard(event.currentTarget.querySelector(".flag_index").innerText);
-			ll.update();
-		});
-	}
-}
-
-function getTypeRadio(){
-	let type_container = document.querySelector(".type_buttons");
-	for (const radioButton of type_container.children) {
-		if (radioButton.checked) {
-			return radioButton.value;
-		}
-	}
-}
-
-function createLogo() {
-	let logo_container = document.querySelector("#logo");
-	let currentLang = getLanguage();
-	let theme = currentThemeSetting == "light" ? "dark" : "light";
-	let logo_source = 'images/logo/' + ('LOGO-1-' + currentLang + '-' + theme).toUpperCase() + '.svg';
-	logo_container.style.backgroundImage = "url(\'" + logo_source + "\')";
-}
-
-function createHeader() {
-	let type_radios = "";
-	let type_container = document.querySelector(".type_buttons");
-	let currentLang = getLanguage();
-	let types = countTypes();
-	type_radios += "<input type='radio' onclick='makeCards();' name='type_button' id='All' value='All' checked/>";
-	type_radios += "<label for='All'>" + translate(currentLang, "type", "All").replace("\{count\}", '(' + countCountries() + ')') + "</label>";
-	for (i = 0; i < types.length; i++) {
-		type_radios += "<input type='radio' onclick='makeCards();' name='type_button' id='" + types[i][0] + "' value='" + types[i][0] + "'/>";
-		type_radios += "<label for='" + types[i][0] + "'>" + translate(currentLang, "type", types[i][0]).replace("\{count\}", '(' + types[i][1] + ')') + "</label>";
-	}
-	type_radios += "<input type='radio' onclick='makeCards();' name='type_button' id='Unrecognized' value='Unrecognized'/>";
-	type_radios += "<label for='Unrecognized'>" + translate(currentLang, "type", "Unrecognized").replace("\{count\}", '(' + countUnrecognized() + ')') + "</label>";
-	document.querySelector("html").setAttribute("lang", currentLang);
-	type_container.innerHTML = type_radios;
-	makeCards();
 }
 
 function toggleCard(index){
@@ -326,5 +204,5 @@ function makeCardImage(index){
 
 	document.querySelector(".open_flag_img").innerHTML = image_link;
 	document.querySelector(".open_flag_download").setAttribute("href", "flags/" + format_value + "/" + String.prototype.toUpperCase.call(extension) + "-" + proportion_value + "/" + index + "-" + proportion_value + size + "." + extension);
-	ll.update();
+	lazyload.update();
 }
