@@ -1,12 +1,12 @@
-<svg width="161" height="120" viewBox="0 0 161 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_504_340)">
-<path d="M0.529297 0H160.529V120H0.529297V0Z" fill="white"/>
-<path d="M95.5293 0V45H160.529V75H95.5293V120H65.5293V75H0.529297V45H65.5293V0H95.5293Z" fill="#D91C16"/>
-<path d="M35.5293 70L40.5293 65H75.5293V100L70.5293 105H90.5293L85.5293 100V65H120.529L125.529 70V50L120.529 55H85.5293V20L90.5293 15H70.5293L75.5293 20V55H40.5293L35.5293 50V70Z" fill="#FDD406"/>
+<svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_909_305198)">
+<path d="M0 0H160V120H0V0Z" fill="white"/>
+<path d="M95 0V45H160V75H95V120H65V75H0V45H65V0H95Z" fill="#D91C16"/>
+<path d="M35 70L40 65H75V100L70 105H90L85 100V65H120L125 70V50L120 55H85V20L90 15H70L75 20V55H40L35 50V70Z" fill="#FDD406"/>
 </g>
 <defs>
-<clipPath id="clip0_504_340">
-<rect width="160" height="120" fill="white" transform="translate(0.529297)"/>
+<clipPath id="clip0_909_305198">
+<rect width="160" height="120" fill="white"/>
 </clipPath>
 </defs>
 </svg>

@@ -1,13 +1,13 @@
-<svg width="161" height="120" viewBox="0 0 161 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_307_61862)">
-<path d="M160.18 0H0.179688V120H160.18V0Z" fill="#1E9A1C"/>
-<path d="M160.18 24H0.179688V96H160.18V24Z" fill="white"/>
-<path d="M160.18 36H0.179688V84H160.18V36Z" fill="#D91C16"/>
-<path d="M85.8934 54.8754L80.5051 38.2918L75.1168 54.8754H57.6797L71.7866 65.1247L66.3983 81.7082L80.5051 71.459L94.6119 81.7082L89.2236 65.1247L103.33 54.8754H85.8934Z" fill="#FDD406"/>
+<svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_909_261918)">
+<path d="M160 0H0V120H160V0Z" fill="#1E9A1C"/>
+<path d="M160 24H0V96H160V24Z" fill="white"/>
+<path d="M160 36H0V84H160V36Z" fill="#D91C16"/>
+<path d="M85.7137 54.8754L80.3254 38.2917L74.9371 54.8754H57.5L71.6069 65.1246L66.2186 81.7081L80.3254 71.459L94.4322 81.7081L89.0439 65.1246L103.151 54.8754H85.7137Z" fill="#FDD406"/>
 </g>
 <defs>
-<clipPath id="clip0_307_61862">
-<rect width="160" height="120" fill="white" transform="translate(0.179688)"/>
+<clipPath id="clip0_909_261918">
+<rect width="160" height="120" fill="white"/>
 </clipPath>
 </defs>
 </svg>
