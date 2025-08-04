@@ -220,7 +220,7 @@ const flag_colors = {
     "SV": ["blue", "darkgreen", "darkblue", "green", "skyblue", "lime", "lilac", "red", "orange", "yellow", "powder", "black", "white"],
 	"SU": ["red", "yellow"],
 	"SX": ["blue", "golden", "black", "green", "white", "red", "skyblue", "yellow", "lightbrown",],
-	"SY": ["black", "green", "white", "red"],
+	"SY": ["black", "darkgreen", "white", "red"],
 	"SZ": ["blue", "darkred", "black", "grey", "darkgrey", "white", "yellow",],
 	"TA": ["blue", "darkred", "golden", "black", "grey", "aqua", "brown", "white", "darkblue", "skyblue", "powder", "lightbrown", "red",],
 	"TC": ["black", "orange", "powder", "pink", "brown", "green", "white", "darkblue", "yellow", "red",],
