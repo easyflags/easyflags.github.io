@@ -139,19 +139,14 @@
 <path d="M125.975 42.3486C125.958 42.1047 125.732 41.9479 125.47 41.7737C125.139 41.5646 124.773 41.3207 124.756 40.8154H124.86C124.878 41.251 125.209 41.4775 125.522 41.6866C125.801 41.8608 126.063 42.035 126.08 42.3312L125.975 42.3486Z" fill="black"/>
 <path d="M127.038 41.7571C127.021 41.3912 126.986 41.1821 126.864 40.9905L126.951 40.9382C127.073 41.1473 127.126 41.3738 127.126 41.7571H127.038Z" fill="black"/>
 <g clip-path="url(#clip1_354_556)">
-<mask id="mask0_354_556" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="75" height="50">
-<path d="M75 0H0V50H75V0Z" fill="white"/>
-</mask>
-<g mask="url(#mask0_354_556)">
-<path d="M0 0H75V50H0V0Z" fill="#021455"/>
-<path d="M75 6.00912L46.5138 25L75 43.9908V50H65.9863L37.5 31.0091L9.01367 50H0V43.9908L28.4863 25L0 6.00912V0H9.01367L37.5 18.9909L65.9863 0H75V6.00912Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M31.4909 25L0 4.00594V0L37.5 24.9998L31.4909 25Z" fill="#D91C16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M37.5 29.0059L6.00912 50H0L37.5 24.9998V29.0059Z" fill="#D91C16"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M43.5092 25L75 45.9937V50L37.5 24.9998L43.5092 25Z" fill="#D91C16"/>
-<path d="M37.5 20.9937L68.9908 0H75L37.5 24.9998V20.9937Z" fill="#D91C16"/>
-<path d="M45.8333 0V16.6667H75V33.3333H45.8333V50H29.1667V33.3333H0V16.6667H29.1667V0H45.8333Z" fill="white"/>
-<path d="M42.5 0V20H75V30H42.5V50H32.5V30H0V20H32.5V0H42.5Z" fill="#D91C16"/>
-</g>
+<path d="M0 0H80V60H0V0Z" fill="#021455"/>
+<path d="M80 7.49951L49.9995 30L80 52.5V60H70.0005L40 37.4995L9.99951 60H0V52.5L30 30L0 7.49951V0H10L40 22.5L70 0H80V7.49951Z" fill="white"/>
+<path d="M40 35L6.66699 60H0L40 30V35Z" fill="#D91C16"/>
+<path d="M80 54.9995V60L40 30H46.6665L80 54.9995Z" fill="#D91C16"/>
+<path d="M40 30H33.333L0 5V0L40 30Z" fill="#D91C16"/>
+<path d="M80 0L40 30V24.9995L73.333 0H80Z" fill="#D91C16"/>
+<path d="M50 0V20H80V40H50V60H30V40H0V20H30V0H50Z" fill="white"/>
+<path d="M46 0V24H80V36H46V60H34V36H0V24H34V0H46Z" fill="#D91C16"/>
 </g>
 </g>
 <defs>
@@ -159,7 +154,7 @@
 <rect width="160" height="120" fill="white"/>
 </clipPath>
 <clipPath id="clip1_354_556">
-<rect width="75" height="50" fill="white"/>
+<rect width="80" height="60" fill="white"/>
 </clipPath>
 </defs>
 </svg>
